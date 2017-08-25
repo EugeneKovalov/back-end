@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/august/cv/css/style.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/august/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/august/test.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/august/cv/img/header.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/august/cv/img/profile.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/august/cv/index.html" afterPath="$PROJECT_DIR$/august/cv/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +28,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/august/cv/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="90" column="13" lean-forward="false" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+            <state relative-caret-position="444">
+              <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -179,6 +177,13 @@
             </path>
             <path>
               <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="august" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cv" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bootstrap-Study" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -242,7 +247,7 @@
       <option name="presentableId" value="Default" />
       <updated>1502976964232</updated>
       <workItem from="1502976965511" duration="8674000" />
-      <workItem from="1503654376405" duration="8347000" />
+      <workItem from="1503654376405" duration="8465000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502977073321</created>
@@ -258,17 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1503576329008</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW-1 CV">
+      <created>1503663035370</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1503663035370</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17021000" />
+    <option name="totallyTimeSpent" value="17139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18901454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18901454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -298,7 +309,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="test" />
     <MESSAGE value="test2" />
-    <option name="LAST_COMMIT_MESSAGE" value="test2" />
+    <MESSAGE value="HW-1 CV" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW-1 CV" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -425,8 +437,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/august/cv/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="90" column="13" lean-forward="false" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        <state relative-caret-position="444">
+          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
         </state>
       </provider>
