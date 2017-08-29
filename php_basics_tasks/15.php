@@ -19,6 +19,10 @@ function calculate($a, $b, $operator) {
             echo $a / $b;
             break;
         case '%':
+            if($b == 0) {
+                echo "Найти остаток от делителя на " . $b . " нельзя";
+                break;
+            }
             echo $a % $b;
             break;
 
