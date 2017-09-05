@@ -84,39 +84,39 @@ for ($i = 1; $i < 1000; $i++) {
 
 // 7. Вывести на экран все шестизначные счастливые билеты. Билет называется счастливым, если сумма первых трех цифр в номере билета равна сумме последних трех цифр. Найдите количество счастливых билетов и процент от общего числа билетов.
 
-//$arr = array();
-//$total = 0;
-//
-//for ($i = 100000; $i <= 999999; $i++) {
-//    $arr[$i] = $i;
-//}
-//
-//foreach ($arr as $value) {
-//    $firstHalf = 0;
-//    $secondHalf = 0;
-//
-//    $tmpNum = $value;
-//
-//    for ($i = 0; $i < 3; $i++) {
-//        $firstHalf += substr($tmpNum, 0, 1);
-//        $tmpNum = substr($tmpNum, 1, strlen((string)$tmpNum));
-//    }
-//
-//    for ($i = 0; $i < 3; $i++) {
-//        $secondHalf += substr($tmpNum, 0, 1);
-//        if (strlen((string)$tmpNum) != 1) {
-//            $tmpNum = substr($tmpNum, 1, strlen((string)$tmpNum));
-//        }
-//    }
-//
-//    if ($firstHalf == $secondHalf) {
-//        echo $value . "\n";
-//        $total++;
-//    }
-//}
-//
-//echo "Всего счастливых билетов: " . $total . "\n";
-//echo "Процент общего числа: " . ($total / count($arr)) * 100 . "\n";
+$arr = array();
+$total = 0;
+
+for ($i = 100000; $i <= 999999; $i++) {
+    $arr[$i] = $i;
+}
+
+foreach ($arr as $value) {
+    $firstHalf = 0;
+    $secondHalf = 0;
+
+    $tmpNum = $value;
+
+    for ($i = 0; $i < 3; $i++) {
+        $firstHalf += substr($tmpNum, 0, 1);
+        $tmpNum = substr($tmpNum, 1, strlen((string)$tmpNum));
+    }
+
+    for ($i = 0; $i < 3; $i++) {
+        $secondHalf += substr($tmpNum, 0, 1);
+        if (strlen((string)$tmpNum) != 1) {
+            $tmpNum = substr($tmpNum, 1, strlen((string)$tmpNum));
+        }
+    }
+
+    if ($firstHalf == $secondHalf) {
+        echo $value . "\n";
+        $total++;
+    }
+}
+
+echo "Всего счастливых билетов: " . $total . "\n";
+echo "Процент общего числа: " . ($total / count($arr)) * 100 . "\n";
 
 // 8 - Заполнить массив длины $n нулями и единицами, при этом данные значения чередуются начиная с нуля. (for, while)
 
@@ -202,7 +202,6 @@ for ($i = 1; $i < count($arr); $i++) {
 print_r($arr);
 
 // 11 - Дана переменная $n - число, которое не превосходит 100000 (сто тысяч). Вывести прописью число, которое она хранит (например, 2134 - две тысячи сто тридцать четыре). Массив использовать необязательно.
-
 
 $arrHundreds = array(
     1 => "сто",
