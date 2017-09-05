@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php_arrays_loops/array_loops.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php_basics_tasks/3.php" afterPath="$PROJECT_DIR$/php_basics_tasks/3.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php_arrays_loops/array_loops.php" afterPath="$PROJECT_DIR$/php_arrays_loops/array_loops.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -112,8 +111,8 @@
       <file leaf-file-name="array_loops.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php_arrays_loops/array_loops.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="323" column="162" lean-forward="false" selection-start-line="323" selection-start-column="162" selection-end-line="323" selection-end-column="162" />
+            <state relative-caret-position="181">
+              <caret line="327" column="168" lean-forward="false" selection-start-line="327" selection-start-column="168" selection-end-line="327" selection-end-column="168" />
               <folding />
             </state>
           </provider>
@@ -141,6 +140,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Eugene &lt;drawnowl@gmail.com&gt;" />
         <option value="Eugene Kovalov" />
       </list>
     </option>
@@ -277,6 +277,7 @@
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -336,7 +337,7 @@
       <workItem from="1503654376405" duration="9957000" />
       <workItem from="1503931291773" duration="33056000" />
       <workItem from="1504505632093" duration="11170000" />
-      <workItem from="1504611323838" duration="20972000" />
+      <workItem from="1504611323838" duration="21126000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502977073321</created>
@@ -387,11 +388,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504505657390</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HW - 3 Arrays">
+      <created>1504641924627</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1504641924628</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83829000" />
+    <option name="totallyTimeSpent" value="83983000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +473,8 @@
     <MESSAGE value="HW-1 CV" />
     <MESSAGE value="HW-2 basic-tasks" />
     <MESSAGE value="HW-2 basic-tasks - edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW-2 basic-tasks - edited" />
+    <MESSAGE value="HW - 3 Arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW - 3 Arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -814,8 +823,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php_arrays_loops/array_loops.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="323" column="162" lean-forward="false" selection-start-line="323" selection-start-column="162" selection-end-line="323" selection-end-column="162" />
+        <state relative-caret-position="181">
+          <caret line="327" column="168" lean-forward="false" selection-start-line="327" selection-start-column="168" selection-end-line="327" selection-end-column="168" />
           <folding />
         </state>
       </provider>
