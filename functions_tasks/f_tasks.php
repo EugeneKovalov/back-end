@@ -83,9 +83,10 @@ echo $myString;
 // 6 -- Написать функцию, которая принимает один аргумент - натуральное число n. Функция должна вывести все числа от 1 до n через пробел. Циклы или функцию range использовать нельзя.
 
 function recursiveToNum($n) {
-    echo $n . " ";
-    if ($n != 1)
-    recursiveToNum(--$n);
+    if ($n != 0) {
+        recursiveToNum(--$n);
+        echo $n + 1 . " ";
+    }
 }
 
 recursiveToNum(10);
