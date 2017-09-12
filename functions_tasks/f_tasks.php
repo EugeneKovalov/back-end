@@ -42,52 +42,28 @@ function sumOfElementsArray($arr) {
     return $sum;
 }
 
-echo sumOfElementsArray([2, 3, 5]);
+echo sumOfElementsArray([2, 3, 5]) . "\n";
 
 // 4 - Сгенерировать десять массивов из случайных чисел. Найти среди них один с максимальной суммой элементов и вывести его на экран. При решении задачи использовать две функции из двух задач выше.
 
 function generateAndMaxSum() {
-    // Тут я очень грубо пошел( Потом сделаю универсально и кратче.
+    $overlordArray = array();
 
-    $arr1 = randArr(2, 10, 5);
-    $arr2 = randArr(0, 8, 5);
-    $arr3 = randArr(2, 20, 3);
-    $arr4 = randArr(2, 10, 9);
-    $arr5 = randArr(5, 15, 12);
-    $arr6 = randArr(0, 2, 23);
-    $arr7 = randArr(0, 6, 6);
-    $arr8 = randArr(4, 12, 3);
-    $arr9 = randArr(1, 8, 7);
-    $arr10 = randArr(0, 6, 9);
-
-    function myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10) {
-        return max(sumOfElementsArray($arr1), sumOfElementsArray($arr2), sumOfElementsArray($arr3),
-            sumOfElementsArray($arr4), sumOfElementsArray($arr5), sumOfElementsArray($arr6),
-            sumOfElementsArray($arr7), sumOfElementsArray($arr8), sumOfElementsArray($arr9),
-            sumOfElementsArray($arr10));
+    for ($i = 0; $i < 10; $i++) {
+        $overlordArray[] = randArr(1, 30, 6);
     }
 
-    if (sumOfElementsArray($arr1) == myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10)) {
-        print_r($arr1);
-    } else if (sumOfElementsArray($arr2) == myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10)) {
-        print_r($arr2);
-    } else if (sumOfElementsArray($arr3) == myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10)) {
-        print_r($arr3);
-    } else if (sumOfElementsArray($arr4) == myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10)) {
-        print_r($arr4);
-    } else if (sumOfElementsArray($arr5) == myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10)) {
-        print_r($arr5);
-    } else if (sumOfElementsArray($arr6) == myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10)) {
-        print_r($arr6);
-    } else if (sumOfElementsArray($arr7) == myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10)) {
-        print_r($arr7);
-    } else if (sumOfElementsArray($arr8) == myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10)) {
-        print_r($arr8);
-    } else if (sumOfElementsArray($arr9) == myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10)) {
-        print_r($arr9);
-    } else if (sumOfElementsArray($arr10) == myMax($arr1, $arr2, $arr3, $arr4, $arr5, $arr6, $arr7, $arr8, $arr9, $arr10)) {
-        print_r($arr10);
+    for ($i = 1; $i <= count($overlordArray); $i++) {
+        for ($j = $i; $j < count($overlordArray); $j++) {
+            if(sumOfElementsArray($overlordArray[$i-1]) > sumOfElementsArray($overlordArray[$j])) {
+                $tmp = $overlordArray[$i-1];
+                $overlordArray[$i-1] = $overlordArray[$j];
+                $overlordArray[$j] = $tmp;
+            }
+        }
     }
+
+    print_r($overlordArray[count($overlordArray) - 1]);
 }
 
 generateAndMaxSum();
