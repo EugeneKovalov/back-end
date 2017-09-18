@@ -89,4 +89,4 @@ function recursiveToNum($n) {
     }
 }
 
-recursiveToNum(10);
+recursiveToNum(20);
