@@ -7,17 +7,17 @@ ini_set('display_errors', 1);
 
 $arr = array('one', 'two', 'three', 'four', 'five', 'six');
 
-usort($arr, function () {
-    static $k = 1;
-    if ($k == 1) {
-        $k = -1;
+usort($arr, function ($a, $b) {
+    static $k = 0;
+
+    if ($k == 0) {
+        $k = 1;
+        return 1;
+    } else if ($k == 1) {
+        $k = 0;
     } else if ($k == -1) {
         $k = 0;
-    } else {
-        $k = 1;
     }
-
-    return $k;
 });
 
 print_r($arr);
@@ -36,19 +36,19 @@ print_r($arr);
 
 // 3 - Дана строка - Walks Straight walked numbly through the destruction. Nothing left, no one alive.. Разбить строку на массив слов (так, чтобы не осталось спец.символов - , .). При помощи функции usort и анонимной функции для сортировки отсортировать массив таким образом, чтобы его элементы выстроились от самого короткого слова к самому длинному.
 
-//$str = "Walks Straight walked numbly through the destruction. Nothing left, no one alive..";
-//$str = str_replace(".", "", $str);
-//$str = str_replace(",", "", $str);
-//
-//$arr = explode(" ", $str);
-//
-//usort($arr, function ($a, $b) {
-//    if (strlen($a) > strlen($b)) {
-//        return 1;
-//    }
-//});
-//
-//print_r($arr);
+$str = "Walks Straight walked numbly through the destruction. Nothing left, no one alive..";
+$str = str_replace(".", "", $str);
+$str = str_replace(",", "", $str);
+
+$arr = explode(" ", $str);
+
+usort($arr, function ($a, $b) {
+    if (strlen($a) > strlen($b)) {
+        return 1;
+    }
+});
+
+print_r($arr);
 
 // 4 - Создать функцию с именем sayHello, которая принимает один аргумент - строку $name(указать тип аргумента). Функция должна выводить сначала строку Привет, $name. А затем строку, в которой будет сказанно, сколько раз функция была вызвана в формате Всего поздоровались $n раз. Вызвать функцию несколько раз с разным значением параметра.
 
