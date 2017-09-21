@@ -52,7 +52,7 @@ $commentsPerPage = 5;
 $maxPages = ceil(count($comments) / $commentsPerPage);
 
 if ($_GET['p'] > $maxPages) {
-    header("Location: http://localhost:8888/PHP-Academy/september/practice.php?p=1");
+    header("Location: ?p=1");
 }
 
 // Вырезать нужные комментарии из $comments
