@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TEST/ceecece.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/filesystem/gallery/gallery_files/176915_483317491690200_1654227635_o.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/filesystem/gallery/gallery_files/3ysZaLdbEro.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/filesystem/gallery/gallery.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +63,8 @@
       <file leaf-file-name="fileManager.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="128" column="61" lean-forward="true" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
+            <state relative-caret-position="236">
+              <caret line="125" column="47" lean-forward="false" selection-start-line="125" selection-start-column="47" selection-end-line="125" selection-end-column="47" />
               <folding>
                 <marker date="1506267492000" expanded="true" signature="2378:3417" ph="..." />
                 <marker date="1506267492000" expanded="true" signature="2385:2789" ph="..." />
@@ -337,6 +339,23 @@
             <path>
               <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="filesystem" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gallery" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="filesystem" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gallery" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="gallery_files" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="TEST" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -430,7 +449,7 @@
       <workItem from="1505211956500" duration="6594000" />
       <workItem from="1505235633420" duration="43700000" />
       <workItem from="1506237444480" duration="222000" />
-      <workItem from="1506238176747" duration="19231000" />
+      <workItem from="1506238176747" duration="19324000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502977073321</created>
@@ -586,11 +605,25 @@
       <option name="project" value="LOCAL" />
       <updated>1506238193863</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="HW - filesys">
+      <created>1506267507943</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1506267507943</updated>
+    </task>
+    <task id="LOCAL-00024" summary="HW - filesys">
+      <created>1506267538263</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1506267538263</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198598000" />
+    <option name="totallyTimeSpent" value="198691000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -603,9 +636,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17932148" sideWeight="0.4941003" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17932148" sideWeight="0.4941003" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25516224" sideWeight="0.51130855" order="7" side_tool="true" content_ui="tabs" />
@@ -672,7 +704,8 @@
     <MESSAGE value="HW - function-2 tasks" />
     <MESSAGE value="HW - Comments tasks" />
     <MESSAGE value="HW - Comments tasks edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW - Comments tasks edited" />
+    <MESSAGE value="HW - filesys" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW - filesys" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1069,8 +1102,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="128" column="61" lean-forward="true" selection-start-line="128" selection-start-column="61" selection-end-line="128" selection-end-column="61" />
+        <state relative-caret-position="236">
+          <caret line="125" column="47" lean-forward="false" selection-start-line="125" selection-start-column="47" selection-end-line="125" selection-end-column="47" />
           <folding>
             <marker date="1506267492000" expanded="true" signature="2378:3417" ph="..." />
             <marker date="1506267492000" expanded="true" signature="2385:2789" ph="..." />
