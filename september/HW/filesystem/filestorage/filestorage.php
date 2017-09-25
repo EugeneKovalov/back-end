@@ -1,31 +1,43 @@
 <?php
 
+//Написать скрипт для загрузки пользовательских файлов. При загрузке, в зависимости от типа файла – он на сервере должен помещаться в папку /doc, или /img..etc
+
+//Должно быть ограничение на прием файлов – не более 2 мб.
+
+//Ссылку на форму загрузки разместить на главной странице сайта.
+
+//После добавления файлов, при заходе на главную, пользователь должен видеть галерею ранее загруженных картинок, и список загруженных документов (все, что не картинки).
+
+//Код максимально писать функциями.
+
 define('DS', DIRECTORY_SEPARATOR);
-// Определим где мы будет хранить картинки
-$galleryDir = __DIR__.DS.'gallery_files';
+
+$fileDir = __DIR__ . DS;
 $errors = [];
-// Если директория не создана - создаем
-if (!is_dir($galleryDir)) {
-    mkdir($galleryDir);
-}
-// Логика обработки запроса
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $file = $_FILES['image'];
-    if (file_exists($file['tmp_name'])) {
-        // Тут делаем проверку на mime-type == image/...
-        if (substr(mime_content_type($file['tmp_name']), 0, 6) == 'image/') {
-            // Если все ок - перемещаем загруженную картинку в свою директорию
-            move_uploaded_file(
-                $file['tmp_name'],
-                $galleryDir.DS.$file['name']
-            );
-        } else {
-            array_push($errors, "mime-type not identified");
+    var_dump($_FILES);
+    $file = $_FILES['image']['name'];
+
+    if (file_exists($fileDir.$file['name'])) {
+
+//        $path_parts = pathinfo($_FILES['tmp_name']);
+//        $fileDir .= $path_parts['extension'];
+
+        if (!is_dir($fileDir)) {
+            mkdir($fileDir);
         }
+        // Если все ок - перемещаем загруженную картинку в свою директорию
+        move_uploaded_file(
+            $file['tmp_name'],
+            $fileDir . DS . $file['name']
+        );
     }
 }
+
 // Получаем список файлов директории и очищаем от лишних элементов
-$images = array_diff(scandir($galleryDir), ['.', '..']);
+$images = array_diff(scandir($fileDir), ['.', '..']);
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -61,8 +73,7 @@ $images = array_diff(scandir($galleryDir), ['.', '..']);
                 <? foreach ($images as $imgPath): ?>
                     <div class="col-md-6"
                          style="height: 250px;
-                             background: url('get_img.php?name=<?= $imgPath ?>') no-repeat center/cover"
-                    >
+                                 background: url('get_img.php?name=<?= $imgPath ?>') no-repeat center/cover">
                     </div>
                 <? endforeach; ?>
             </div>

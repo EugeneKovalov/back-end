@@ -1,9 +1,5 @@
 <?php
 
-//В колонку "Действия" добавить ссылку по нажатию на которую появится форма с текстовым полем для переименования файла/директории (в котором по-умолчанию указано текущее имя) и кнокной "Переименовать"
-
-//*4. Для текстовых и php файлов добавить ссылку по нажатию на которую появится форма с текстовым полем (textarea) для редактирования содержимого файла и кнокной "Сохранить".
-
 define('DS', DIRECTORY_SEPARATOR);
 // Определим корневую директорию
 $base = $_SERVER['DOCUMENT_ROOT'];
@@ -23,11 +19,13 @@ if (!$path) {
 $files = array_diff($files, $removeParts);
 // Формируем данные для вывода
 $result = [];
-var_dump($_POST);
+
+//var_dump($_POST);
 
 foreach ($files as $file) {
     $name = $file;
     $absFile = $base.DS.$path.DS.$file;
+
     // Для директорий делаем имя со ссылкой
     if (is_dir($absFile)) {
         if ($file == '..') {
@@ -49,26 +47,6 @@ foreach ($files as $file) {
         'edited_at' => date('H:i:s d.m.Y', filemtime($absFile)),
         'path' => $absFile
     ];
-}
-
-if (isset($_POST['remove_button'])) {
-    $fileName = $_POST['removeFile'];
-
-    foreach ($result as $item) {
-        if ($fileName == $item['name']) {
-            $abs = $item['path'];
-
-            if(is_dir($abs)) {
-                echo $fileName . " dir has been deleted.";
-                rmdir($item['path']);
-                break;
-            } else {
-                echo $fileName . " file has been deleted.";
-                unlink($item['path']);
-                break;
-            }
-        }
-    }
 }
 ?>
 <!DOCTYPE html>
@@ -106,6 +84,16 @@ if (isset($_POST['remove_button'])) {
                                     <input type="hidden" name="renameFile" value="<?= htmlspecialchars($file['name'])?>">
                                     <input name="rename_button" type="submit" value="rename">
                                 </form>
+
+                                <?if (!is_dir($file['path'])): ?>
+                                    <? $path_parts = pathinfo($file['path']); ?>
+                                    <?if ($path_parts['extension'] == 'php'|| $path_parts['extension'] == 'txt'): ?>
+                                        <form method="post">
+                                            <input type="hidden" name="editFile" value="<?= htmlspecialchars($file['name'])?>">
+                                            <input name="edit_button" type="submit" value="edit">
+                                        </form>
+                                    <?endif;?>
+                                <?endif;?>
                             <?endif;?>
                         </td>
                         <td><?= $file['name'] ?></td>
@@ -115,32 +103,72 @@ if (isset($_POST['remove_button'])) {
                     </tr>
                 <? endforeach; ?>
 
+                <!--            EDIT FILE-->
+                <?if (isset($_POST['edit_button'])): ?>
+
+                    <form method="post">
+                        <p><?= $_POST['editFile'] ?></p>
+
+                        <? $fileName = $_POST['editFile'];
+                        foreach ($result as $item) {
+                            if ($fileName == $item['name']) {
+                                file_put_contents($item['name'], $_POST['editFile']);
+                                $content = file_get_contents($item['name']);
+                                echo "<textarea name='html'>" . htmlspecialchars($content) . "</textarea>";
+                                ?>
+                                <input name="submit_edit" type="submit" value="submit edit">
+                                <?
+                                break;
+                            }
+                        }
+                        ?>
+                    </form>
+                <?endif;?>
+
+                <!--            RENAME FILE-->
                 <?if (isset($_POST['rename_button'])): ?>
                     <form method="post">
                         <p><?= $_POST['renameFile'] ?></p>
-                        <input name="title" value="" placeholder="Rename">
-                        <input name="submit_rename" type="submit" value="submit rename"">
+                        <input name="new_file" value="" placeholder="Rename">
+                        <input type="hidden" name="old_file" value="<?= $_POST["renameFile"] ?>">
+                        <input name="submit_rename" type="submit" value="submit rename">
                     </form>
-                    <?if (isset($_POST['submit_rename'])):
+                <?endif;?>
 
-                        $fileName = $_POST['renameFile'];
-                        echo "dwdw";
-                        foreach ($result as $item) {
-                            if ($fileName == $item['name']) {
-                                $abs = $item['path'];
+                <!--            SUBMIT RENAME FILE-->
+                <?if (isset($_POST['submit_rename'])):
+                    $fileName = $_POST['old_file'];
+                    foreach ($result as $item) {
+                        if ($fileName == $item['name']) {
+                            $abs = $item['path'];
 
-                                if (is_dir($abs)) {
+                            rename($item['path'], $base.DS.$path.DS.$_POST['new_file']);
+                            echo $fileName . " file has been renamed.";
+                            break;
+                        }
+                    }
+                endif;?>
 
-                                    break;
-                                } else {
-                                    echo $fileName . " file has been renamed.";
-                                    rename($item['path'] . $item['name'], $item[$path] . $_POST['title']);
-                                    break;
-                                }
+                <!--            REMOVE FILE-->
+                <?if (isset($_POST['remove_button'])):
+                    $fileName = $_POST['removeFile'];
+
+                    foreach ($result as $item) {
+                        if ($fileName == $item['name']) {
+                            $abs = $item['path'];
+
+                            if(is_dir($abs)) {
+                                echo $fileName . " dir has been deleted.";
+                                rmdir($item['path']);
+                                break;
+                            } else {
+                                echo $fileName . " file has been deleted.";
+                                unlink($item['path']);
+                                break;
                             }
                         }
-                    endif;?>
-                <?endif;?>
+                    }
+                endif;?>
                 </tbody>
             </table>
         </div>
