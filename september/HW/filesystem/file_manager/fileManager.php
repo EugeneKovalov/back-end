@@ -89,7 +89,9 @@ foreach ($files as $file) {
                                     <? $path_parts = pathinfo($file['path']); ?>
                                     <?if ($path_parts['extension'] == 'php'|| $path_parts['extension'] == 'txt'): ?>
                                         <form method="post">
-                                            <input type="hidden" name="editFile" value="<?= htmlspecialchars($file['name'])?>">
+                                            <input type="hidden" name="editFile" value="<?=
+                                            htmlspecialchars($file['name'])
+                                            ?>">
                                             <input name="edit_button" type="submit" value="edit">
                                         </form>
                                     <?endif;?>
@@ -113,8 +115,10 @@ foreach ($files as $file) {
                         foreach ($result as $item) {
                             if ($fileName == $item['name']) {
                                 file_put_contents($item['name'], $_POST['editFile']);
-                                $content = file_get_contents($item['name']);
-                                echo "<textarea name='html'>" . htmlspecialchars($content) . "</textarea>";
+                                $content = file_get_contents(basename($item['name']));
+                                echo "<textarea name='html'>" .
+                                    htmlspecialchars($content)
+                                    . "</textarea>";
                                 ?>
                                 <input name="submit_edit" type="submit" value="submit edit">
                                 <?
