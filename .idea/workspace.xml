@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
+    <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="HW Cookies">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/september/HW/cookies/cookieMain.php" afterPath="$PROJECT_DIR$/september/HW/cookies/cookieMain.php" />
     </list>
@@ -31,7 +31,7 @@
       <file leaf-file-name="fileManager.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1564">
+            <state relative-caret-position="209">
               <caret line="92" column="75" lean-forward="false" selection-start-line="92" selection-start-column="75" selection-end-line="92" selection-end-column="75" />
               <folding />
             </state>
@@ -63,14 +63,16 @@
       <file leaf-file-name="cookieMain.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/september/HW/cookies/cookieMain.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding>
-                <marker date="1506503694000" expanded="true" signature="1480:1997" ph="..." />
-                <marker date="1506503694000" expanded="true" signature="1487:1748" ph="..." />
-                <marker date="1506503694000" expanded="true" signature="1541:1655" ph="..." />
-                <marker date="1506503694000" expanded="true" signature="1755:1989" ph="..." />
-                <marker date="1506503694000" expanded="true" signature="1806:1981" ph="..." />
+                <marker date="1506512935000" expanded="true" signature="1388:1905" ph="..." />
+                <marker date="1506512935000" expanded="true" signature="1395:1414" ph="..." />
+                <marker date="1506512935000" expanded="true" signature="1395:1656" ph="..." />
+                <marker date="1506512935000" expanded="true" signature="1449:1563" ph="..." />
+                <marker date="1506512935000" expanded="true" signature="1663:1678" ph="..." />
+                <marker date="1506512935000" expanded="true" signature="1663:1897" ph="..." />
+                <marker date="1506512935000" expanded="true" signature="1714:1889" ph="..." />
               </folding>
             </state>
           </provider>
@@ -395,7 +397,7 @@
       <workItem from="1506237444480" duration="222000" />
       <workItem from="1506238176747" duration="37474000" />
       <workItem from="1506348313921" duration="13118000" />
-      <workItem from="1506452063870" duration="6358000" />
+      <workItem from="1506452063870" duration="7488000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502977073321</created>
@@ -621,11 +623,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506500213593</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="HW Cookies">
+      <created>1506503973940</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1506503973940</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236317000" />
+    <option name="totallyTimeSpent" value="237447000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -878,14 +887,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/Fedora.php" />
     <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/ff.txt" />
-    <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="75" lean-forward="false" selection-start-line="92" selection-start-column="75" selection-end-line="92" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/cookies/folder/iOa430s9qNA.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -896,16 +897,26 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="92" column="75" lean-forward="false" selection-start-line="92" selection-start-column="75" selection-end-line="92" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/cookies/cookieMain.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding>
-            <marker date="1506503694000" expanded="true" signature="1480:1997" ph="..." />
-            <marker date="1506503694000" expanded="true" signature="1487:1748" ph="..." />
-            <marker date="1506503694000" expanded="true" signature="1541:1655" ph="..." />
-            <marker date="1506503694000" expanded="true" signature="1755:1989" ph="..." />
-            <marker date="1506503694000" expanded="true" signature="1806:1981" ph="..." />
+            <marker date="1506512935000" expanded="true" signature="1388:1905" ph="..." />
+            <marker date="1506512935000" expanded="true" signature="1395:1414" ph="..." />
+            <marker date="1506512935000" expanded="true" signature="1395:1656" ph="..." />
+            <marker date="1506512935000" expanded="true" signature="1449:1563" ph="..." />
+            <marker date="1506512935000" expanded="true" signature="1663:1678" ph="..." />
+            <marker date="1506512935000" expanded="true" signature="1663:1897" ph="..." />
+            <marker date="1506512935000" expanded="true" signature="1714:1889" ph="..." />
           </folding>
         </state>
       </provider>

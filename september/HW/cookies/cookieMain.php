@@ -1,5 +1,16 @@
 <?php
 $file = "";
+
+if (isset($_POST['submit'])) {
+    $uploadDir = __DIR__ . DIRECTORY_SEPARATOR . 'folder' . DIRECTORY_SEPARATOR;
+    if (!is_dir($uploadDir)) {
+        mkdir($uploadDir);
+    }
+
+    $uploadFile = $uploadDir . basename($_FILES['uploadfile']['name']);
+    move_uploaded_file($_FILES['uploadfile']['tmp_name'], $uploadFile);
+}
+
 if (isset($_FILES['uploadfile'])) {
     $file = __DIR__ . DIRECTORY_SEPARATOR . 'folder' . DIRECTORY_SEPARATOR . basename($_FILES['uploadfile']['name']);
 }
@@ -21,6 +32,7 @@ if (file_exists($file)) {
     readfile($file);
     exit();
 }
+//}
 
 if (isset($_COOKIE['visits_count'])) {
     $visitCounter = $_COOKIE['visits_count'];
@@ -36,20 +48,6 @@ if ($_COOKIE['visits_count'] >= 5) {
 }
 
 echo "Вы зашли: " . $_COOKIE['visits_count'] . " раз.<br>";
-
-if (isset($_POST['submit'])) {
-    $uploadDir = __DIR__ . DIRECTORY_SEPARATOR . 'folder' . DIRECTORY_SEPARATOR;
-    if (!is_dir($uploadDir)) {
-        mkdir($uploadDir);
-    }
-
-    $uploadFile = $uploadDir . basename($_FILES['uploadfile']['name']);
-    if (move_uploaded_file($_FILES['uploadfile']['tmp_name'], $uploadFile)) {
-        echo "ALL DONE!<br>";
-    } else {
-        echo "SOMETHING GOES WRONG!<br>";
-    }
-}
 ?>
 <!doctype html>
 <html lang="en">
