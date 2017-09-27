@@ -1,12 +1,29 @@
 <?php
+
 if (isset($_FILES['uploadfile'])) {
+
+    if (ob_get_level()) {
+        ob_end_clean();
+    }
+
     $name = basename($_FILES['uploadfile']['name']);
+
+    header('Content-Transfer-Encoding: binary');
+    header('Expires: 0');
     header('Cache-Control: must-revalidate');
     header('Pragma: public');
     header("Content-Description: File Transfer");
     header('Content-Type: application/octet-stream');
     header("Content-Disposition: attachment; filename=$name");
-    readfile(__DIR__ . DIRECTORY_SEPARATOR . 'folder' . DIRECTORY_SEPARATOR . basename($_FILES['uploadfile']['name']));
+
+//    readfile(__DIR__ . DIRECTORY_SEPARATOR . 'folder' . DIRECTORY_SEPARATOR . basename($_FILES['uploadfile']['name']));
+
+    if ($fd = fopen(__DIR__ . DIRECTORY_SEPARATOR . 'folder' . DIRECTORY_SEPARATOR . basename($_FILES['uploadfile']['name']), 'rb')) {
+        while (!feof($fd)) {
+            print fread($fd, 1024);
+        }
+        fclose($fd);
+    }
 }
 
 if (isset($_COOKIE['visits_count'])) {
