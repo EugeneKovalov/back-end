@@ -1,28 +1,21 @@
 <?php
-
-if (isset($_FILES['uploadfile'])) {
-
-    if (ob_get_level()) {
-        ob_end_clean();
-    }
-
-    $name = basename($_FILES['uploadfile']['name']);
-
-    header('Content-Transfer-Encoding: binary');
-    header('Expires: 0');
-    header('Cache-Control: must-revalidate');
-    header('Pragma: public');
-    header("Content-Description: File Transfer");
-    header('Content-Type: application/octet-stream');
-    header("Content-Disposition: attachment; filename=$name");
-
-//    readfile(__DIR__ . DIRECTORY_SEPARATOR . 'folder' . DIRECTORY_SEPARATOR . basename($_FILES['uploadfile']['name']));
-
-    if ($fd = fopen(__DIR__ . DIRECTORY_SEPARATOR . 'folder' . DIRECTORY_SEPARATOR . basename($_FILES['uploadfile']['name']), 'rb')) {
-        while (!feof($fd)) {
-            print fread($fd, 1024);
+function fileDownload($file) {
+    if (file_exists($file)) {
+        if (ob_get_level()) {
+            ob_end_clean();
         }
-        fclose($fd);
+
+        header('Content-Transfer-Encoding: binary');
+        header('Expires: 0');
+        header('Cache-Control: must-revalidate');
+        header('Pragma: public');
+        header("Content-Description: File Transfer");
+        header('Content-Type: application/octet-stream');
+        header('Content-Disposition: attachment; filename="'.basename($file).'"');
+        header('Content-Length: ' . filesize($file));
+
+        readfile($file);
+        exit();
     }
 }
 
@@ -50,6 +43,8 @@ if (isset($_POST['submit'])) {
     $uploadFile = $uploadDir . basename($_FILES['uploadfile']['name']);
     if (move_uploaded_file($_FILES['uploadfile']['tmp_name'], $uploadFile)) {
         echo "ALL DONE!<br>";
+
+        fileDownload($uploadFile);
     } else {
         echo "SOMETHING GOES WRONG!<br>";
     }
