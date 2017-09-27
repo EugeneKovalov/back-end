@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/september/HW/filesystem/gallery/gallery_files/176915_483317491690200_1654227635_o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/september/HW/filesystem/gallery/gallery_files/3ysZaLdbEro.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/september/HW/cookies/cookieMain.php" afterPath="$PROJECT_DIR$/september/HW/cookies/cookieMain.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php" afterPath="$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -66,8 +63,8 @@
       <file leaf-file-name="cookieMain.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/september/HW/cookies/cookieMain.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+            <state relative-caret-position="153">
+              <caret line="8" column="119" lean-forward="true" selection-start-line="8" selection-start-column="119" selection-end-line="8" selection-end-column="119" />
               <folding />
             </state>
           </provider>
@@ -404,7 +401,7 @@
       <workItem from="1506237444480" duration="222000" />
       <workItem from="1506238176747" duration="37474000" />
       <workItem from="1506348313921" duration="13118000" />
-      <workItem from="1506452063870" duration="218000" />
+      <workItem from="1506452063870" duration="1460000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502977073321</created>
@@ -595,11 +592,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506432904412</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="HW Cookies">
+      <created>1506452300247</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1506452300247</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230177000" />
+    <option name="totallyTimeSpent" value="231419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -875,8 +879,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/cookies/cookieMain.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="49" lean-forward="true" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        <state relative-caret-position="153">
+          <caret line="8" column="119" lean-forward="true" selection-start-line="8" selection-start-column="119" selection-end-line="8" selection-end-column="119" />
           <folding />
         </state>
       </provider>

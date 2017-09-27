@@ -1,7 +1,10 @@
 <?php
 if (isset($_FILES['uploadfile'])) {
     $name = basename($_FILES['uploadfile']['name']);
+    header('Cache-Control: must-revalidate');
+    header('Pragma: public');
     header("Content-Description: File Transfer");
+    header('Content-Type: application/octet-stream');
     header("Content-Disposition: attachment; filename=$name");
     readfile(__DIR__ . DIRECTORY_SEPARATOR . 'folder' . DIRECTORY_SEPARATOR . basename($_FILES['uploadfile']['name']));
 }
