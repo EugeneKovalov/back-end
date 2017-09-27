@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="HW Cookies">
+    <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/september/HW/cookies/cookieMain.php" afterPath="$PROJECT_DIR$/september/HW/cookies/cookieMain.php" />
     </list>
@@ -63,16 +63,16 @@
       <file leaf-file-name="cookieMain.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/september/HW/cookies/cookieMain.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <marker date="1506512935000" expanded="true" signature="1388:1905" ph="..." />
-                <marker date="1506512935000" expanded="true" signature="1395:1414" ph="..." />
-                <marker date="1506512935000" expanded="true" signature="1395:1656" ph="..." />
-                <marker date="1506512935000" expanded="true" signature="1449:1563" ph="..." />
-                <marker date="1506512935000" expanded="true" signature="1663:1678" ph="..." />
-                <marker date="1506512935000" expanded="true" signature="1663:1897" ph="..." />
-                <marker date="1506512935000" expanded="true" signature="1714:1889" ph="..." />
+                <marker date="1506516491000" expanded="true" signature="1384:1901" ph="..." />
+                <marker date="1506516491000" expanded="true" signature="1391:1410" ph="..." />
+                <marker date="1506516491000" expanded="true" signature="1391:1652" ph="..." />
+                <marker date="1506516491000" expanded="true" signature="1445:1559" ph="..." />
+                <marker date="1506516491000" expanded="true" signature="1659:1674" ph="..." />
+                <marker date="1506516491000" expanded="true" signature="1659:1893" ph="..." />
+                <marker date="1506516491000" expanded="true" signature="1710:1885" ph="..." />
               </folding>
             </state>
           </provider>
@@ -269,39 +269,6 @@
               <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cookies" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="filesystem" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="filesystem" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="file_manager" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -397,7 +364,7 @@
       <workItem from="1506237444480" duration="222000" />
       <workItem from="1506238176747" duration="37474000" />
       <workItem from="1506348313921" duration="13118000" />
-      <workItem from="1506452063870" duration="7488000" />
+      <workItem from="1506452063870" duration="8636000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502977073321</created>
@@ -630,11 +597,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506503973940</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="HW Cookies">
+      <created>1506513024639</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1506513024640</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237447000" />
+    <option name="totallyTimeSpent" value="238595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -907,16 +881,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/cookies/cookieMain.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <marker date="1506512935000" expanded="true" signature="1388:1905" ph="..." />
-            <marker date="1506512935000" expanded="true" signature="1395:1414" ph="..." />
-            <marker date="1506512935000" expanded="true" signature="1395:1656" ph="..." />
-            <marker date="1506512935000" expanded="true" signature="1449:1563" ph="..." />
-            <marker date="1506512935000" expanded="true" signature="1663:1678" ph="..." />
-            <marker date="1506512935000" expanded="true" signature="1663:1897" ph="..." />
-            <marker date="1506512935000" expanded="true" signature="1714:1889" ph="..." />
+            <marker date="1506516491000" expanded="true" signature="1384:1901" ph="..." />
+            <marker date="1506516491000" expanded="true" signature="1391:1410" ph="..." />
+            <marker date="1506516491000" expanded="true" signature="1391:1652" ph="..." />
+            <marker date="1506516491000" expanded="true" signature="1445:1559" ph="..." />
+            <marker date="1506516491000" expanded="true" signature="1659:1674" ph="..." />
+            <marker date="1506516491000" expanded="true" signature="1659:1893" ph="..." />
+            <marker date="1506516491000" expanded="true" signature="1710:1885" ph="..." />
           </folding>
         </state>
       </provider>

@@ -32,7 +32,6 @@ if (file_exists($file)) {
     readfile($file);
     exit();
 }
-//}
 
 if (isset($_COOKIE['visits_count'])) {
     $visitCounter = $_COOKIE['visits_count'];
