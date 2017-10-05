@@ -2,80 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/october/MySQL/CW/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/CW/pr.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/config/global.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/config/users.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/contacts.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/header.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/products.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/registration.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/index.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/september/arrays_second_lesson.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/1.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/10.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/10.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/11.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/11.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/12.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/12.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/13.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/13.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/14.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/14.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/15.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/15.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/16.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/16.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/17.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/17.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/18.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/18.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/19.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/19.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/2.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/20.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/20.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/21.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/21.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/22.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/22.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/23.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/23.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/24.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/24.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/25.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/25.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/26.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/26.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/27.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/27.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/28.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/28.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/3.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/3.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/4.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/4.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/5.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/5.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/6.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/6.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/7.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/7.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/8.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/8.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/9.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/9.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/array_loops.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/array_loops.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions_tasks/f_tasks.php" afterPath="$PROJECT_DIR$/september/functions_tasks/f_tasks.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/functions_tasks/f_tasks_2.php" afterPath="$PROJECT_DIR$/september/functions_tasks/f_tasks_2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/1.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/1.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/10.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/10.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/11.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/11.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/12.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/12.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/13.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/13.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/14.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/14.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/15.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/15.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/16.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/16.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/17.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/17.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/18.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/18.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/19.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/19.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/2.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/2.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/20.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/20.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/21.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/21.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/22.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/22.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/23.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/23.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/24.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/24.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/25.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/25.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/26.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/26.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/3.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/3.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/4.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/4.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/5.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/5.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/6.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/6.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/7.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/7.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/8.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/8.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/9.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/9.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/string_tasks/hw_tasks.php" afterPath="$PROJECT_DIR$/september/string_tasks/hw_tasks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PHP-Academy.iml" afterPath="$PROJECT_DIR$/.idea/PHP-Academy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/september/HW/auth/inc/header.php" afterPath="$PROJECT_DIR$/september/HW/auth/inc/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/september/HW/auth/index.php" afterPath="$PROJECT_DIR$/september/HW/auth/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,148 +18,108 @@
     <favorites_list name="PHP-Academy" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="global.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/september/HW/auth/config/global.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="196">
-                  <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/september/HW/auth/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="contacts.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/contacts.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/header.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="21" column="89" lean-forward="false" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/header.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="7" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="users.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/september/HW/auth/config/users.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/products.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/footer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="registration.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/registration.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
-                  <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/auth.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="67">
-                  <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="48" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/index.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-497">
-                  <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="24" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/auth.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="15" column="76" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="76" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/register.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="global.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/september/HW/auth/config/global.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/september/HW/auth/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/contacts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/september/HW/auth/config/users.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/products.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/registration.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -260,8 +149,8 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
-        <option value="Eugene Kovalov" />
         <option value="Eugene Kovalov &lt;31100178+eugenekovalov@users.noreply.github.com&gt;" />
+        <option value="Eugene Kovalov" />
         <option value="Eugene &lt;drawnowl@gmail.com&gt;" />
       </list>
     </option>
@@ -525,7 +414,8 @@
       <workItem from="1506530398149" duration="667000" />
       <workItem from="1506535314102" duration="4844000" />
       <workItem from="1506616813354" duration="191000" />
-      <workItem from="1506768244437" duration="18545000" />
+      <workItem from="1506768244437" duration="19436000" />
+      <workItem from="1507200310541" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502977073321</created>
@@ -772,11 +662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506516506320</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="HW Session Auth">
+      <created>1507199325353</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1507199325353</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262864000" />
+    <option name="totallyTimeSpent" value="264028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -791,20 +688,20 @@
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19063005" sideWeight="0.4941003" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19386107" sideWeight="0.4941003" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25516224" sideWeight="0.51130855" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34513274" sideWeight="0.48869145" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34513274" sideWeight="0.48869145" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24798061" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39970502" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19466881" sideWeight="0.5058997" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39970502" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -863,7 +760,8 @@
     <MESSAGE value="e" />
     <MESSAGE value="HW FILESYSTEM" />
     <MESSAGE value="HW Cookies" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW Cookies" />
+    <MESSAGE value="HW Session Auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW Session Auth" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -981,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -989,7 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1037,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1045,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,6 +951,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="76" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/config/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1073,81 +991,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/register.php">
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/september/HW/auth/config/users.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="76" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-497">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/september/HW/auth/config/global.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="357">
+          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="340">
           <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="89" lean-forward="false" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/footer.php">
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/config/users.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1163,10 +1023,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="46" lean-forward="true" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/auth/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="211">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
       </provider>

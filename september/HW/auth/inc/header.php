@@ -19,7 +19,7 @@
                 </li>
                 <? if(isset($_SESSION['login'])): ?>
                     <li class="nav-item active">
-                        <span class="nav-link">Hello dear: <?=$_SESSION['login']?></span>
+                        <span class="nav-link">Hello dear: {{login}}</span>
                     </li>
                 <?endif;?>
             </ul>

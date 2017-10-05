@@ -40,8 +40,12 @@ ob_start();
         $partContent = str_ireplace(
             '{{basket}}',
             "В корзине 3 товара",
-            ob_get_clean()
-        );
+            ob_get_clean());
+
+        $partContent = str_ireplace(
+            '{{login}}',
+            $_SESSION['login'],
+            $partContent);
 
         echo $partContent;
     }
