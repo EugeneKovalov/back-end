@@ -2,8 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/october/MySQL/CW/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/CW/pr.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/config/global.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/config/users.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/auth.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/contacts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/products.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/inc/registration.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/september/HW/auth/index.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/september/arrays_second_lesson.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/1.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/1.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/10.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/10.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/11.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/11.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/12.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/12.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/13.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/13.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/14.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/14.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/15.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/15.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/16.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/16.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/17.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/17.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/18.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/18.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/19.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/19.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/2.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/2.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/20.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/20.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/21.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/21.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/22.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/22.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/23.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/23.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/24.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/24.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/25.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/25.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/26.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/26.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/27.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/27.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/28.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/28.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/3.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/3.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/4.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/4.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/5.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/5.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/6.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/6.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/7.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/7.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/8.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/8.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/9.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/9.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/arrays_loops_tasks/array_loops.php" afterPath="$PROJECT_DIR$/august/arrays_loops_tasks/array_loops.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/functions_tasks/f_tasks.php" afterPath="$PROJECT_DIR$/september/functions_tasks/f_tasks.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/functions_tasks/f_tasks_2.php" afterPath="$PROJECT_DIR$/september/functions_tasks/f_tasks_2.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/1.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/1.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/10.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/10.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/11.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/11.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/12.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/12.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/13.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/13.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/14.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/14.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/15.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/15.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/16.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/16.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/17.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/17.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/18.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/18.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/19.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/19.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/2.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/2.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/20.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/20.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/21.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/21.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/22.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/22.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/23.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/23.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/24.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/24.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/25.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/25.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/26.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/26.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/3.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/3.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/4.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/4.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/5.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/5.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/6.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/6.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/7.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/7.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/8.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/8.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php_basics_tasks/9.php" afterPath="$PROJECT_DIR$/august/php_basics_tasks/9.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/string_tasks/hw_tasks.php" afterPath="$PROJECT_DIR$/september/string_tasks/hw_tasks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PHP-Academy.iml" afterPath="$PROJECT_DIR$/.idea/PHP-Academy.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/september/HW/cookies/cookieMain.php" afterPath="$PROJECT_DIR$/september/HW/cookies/cookieMain.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,98 +89,148 @@
     <favorites_list name="PHP-Academy" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/september/HW/comments/comments.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="85" column="19" lean-forward="false" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fileManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="92" column="75" lean-forward="false" selection-start-line="92" selection-start-column="75" selection-end-line="92" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/september/HW/filesystem/gallery/gallery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <marker date="1506335598000" expanded="true" signature="2144:2204" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_img.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/september/HW/filesystem/filestorage/get_img.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cookieMain.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/september/HW/cookies/cookieMain.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <marker date="1506516491000" expanded="true" signature="1384:1901" ph="..." />
-                <marker date="1506516491000" expanded="true" signature="1391:1410" ph="..." />
-                <marker date="1506516491000" expanded="true" signature="1391:1652" ph="..." />
-                <marker date="1506516491000" expanded="true" signature="1445:1559" ph="..." />
-                <marker date="1506516491000" expanded="true" signature="1659:1674" ph="..." />
-                <marker date="1506516491000" expanded="true" signature="1659:1893" ph="..." />
-                <marker date="1506516491000" expanded="true" signature="1710:1885" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/august/cv/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="131" column="30" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cw_1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/september/cw_1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_img.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/september/HW/filesystem/gallery/get_img.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="global.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/september/HW/auth/config/global.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="196">
+                  <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/september/HW/auth/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contacts.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/contacts.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="21" column="89" lean-forward="false" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="72">
+                  <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="7" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="users.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/september/HW/auth/config/users.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="products.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/products.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="registration.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/registration.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="544">
+                  <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/auth.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="67">
+                  <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="48" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+            <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-497">
+                  <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="24" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/auth.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="15" column="76" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="76" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="register.php" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/register.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,16 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/arrays_loops_tasks/15.php" />
-        <option value="$PROJECT_DIR$/arrays_loops_tasks/16.php" />
-        <option value="$PROJECT_DIR$/arrays_loops_tasks/17.php" />
-        <option value="$PROJECT_DIR$/arrays_loops_tasks/18.php" />
-        <option value="$PROJECT_DIR$/arrays_loops_tasks/19.php" />
-        <option value="$PROJECT_DIR$/arrays_loops_tasks/20.php" />
-        <option value="$PROJECT_DIR$/arrays_loops_tasks/21.php" />
-        <option value="$PROJECT_DIR$/arrays_loops_tasks/22.php" />
-        <option value="$PROJECT_DIR$/arrays_loops_tasks/23.php" />
-        <option value="$PROJECT_DIR$/arrays_loops_tasks/24.php" />
         <option value="$PROJECT_DIR$/arrays_loops_tasks/25.php" />
         <option value="$PROJECT_DIR$/arrays_loops_tasks/26.php" />
         <option value="$PROJECT_DIR$/arrays_loops_tasks/27.php" />
@@ -200,6 +312,16 @@
         <option value="$PROJECT_DIR$/september/HW/filesystem/filestorage/filestorage.php" />
         <option value="$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php" />
         <option value="$PROJECT_DIR$/september/HW/cookies/cookieMain.php" />
+        <option value="$PROJECT_DIR$/september/CW/pr.php" />
+        <option value="$PROJECT_DIR$/september/arrays_second_lesson.php" />
+        <option value="$PROJECT_DIR$/september/HW/auth/inc/main.php" />
+        <option value="$PROJECT_DIR$/october/MySQL/CW/index.php" />
+        <option value="$PROJECT_DIR$/september/HW/auth/config/users.txt" />
+        <option value="$PROJECT_DIR$/september/HW/auth/inc/registration.php" />
+        <option value="$PROJECT_DIR$/september/HW/auth/config/global.php" />
+        <option value="$PROJECT_DIR$/september/HW/auth/inc/auth.php" />
+        <option value="$PROJECT_DIR$/september/HW/auth/inc/header.php" />
+        <option value="$PROJECT_DIR$/september/HW/auth/index.php" />
       </list>
     </option>
   </component>
@@ -222,10 +344,10 @@
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1.6" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="799" />
-    <option name="height" value="773" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -261,7 +383,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,11 +390,46 @@
               <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="auth" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,16 +453,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/september/HW/auth" />
       <recent name="$PROJECT_DIR$/september/HW/filesystem/filestorage" />
       <recent name="$PROJECT_DIR$/september" />
       <recent name="$PROJECT_DIR$/../Bootstrap-Study/2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/august" />
+      <recent name="$PROJECT_DIR$/september" />
+      <recent name="$PROJECT_DIR$/october/MySQL" />
       <recent name="$PROJECT_DIR$/september/HW/files" />
       <recent name="$PROJECT_DIR$/september/HW" />
-      <recent name="$PROJECT_DIR$/september/HW/comments" />
-      <recent name="$PROJECT_DIR$/august/cv/img" />
-      <recent name="$PROJECT_DIR$/august" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,9 +481,9 @@
   <component name="RunManager" selected="JavaScript Debug.comments.php">
     <configuration name="comments.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8888/PHP-Academy/september/HW/comments/comments.php" />
     <configuration name="cw_1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/september/cw_1.php" />
-    <configuration name="f_tasks_2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/functions_tasks/f_tasks_2.php" />
-    <configuration name="f_tasks.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/functions_tasks/f_tasks.php" />
-    <configuration name="hw_tasks.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/string_tasks/hw_tasks.php" />
+    <configuration name="f_tasks_2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/september/functions_tasks/f_tasks_2.php" />
+    <configuration name="f_tasks.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/september/functions_tasks/f_tasks.php" />
+    <configuration name="hw_tasks.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/september/string_tasks/hw_tasks.php" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="PHP Script.hw_tasks.php" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.cw_1.php" />
@@ -364,7 +521,11 @@
       <workItem from="1506237444480" duration="222000" />
       <workItem from="1506238176747" duration="37474000" />
       <workItem from="1506348313921" duration="13118000" />
-      <workItem from="1506452063870" duration="8636000" />
+      <workItem from="1506452063870" duration="8658000" />
+      <workItem from="1506530398149" duration="667000" />
+      <workItem from="1506535314102" duration="4844000" />
+      <workItem from="1506616813354" duration="191000" />
+      <workItem from="1506768244437" duration="18545000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502977073321</created>
@@ -604,11 +765,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506513024640</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="HW Cookies">
+      <created>1506516506320</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1506516506320</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238595000" />
+    <option name="totallyTimeSpent" value="262864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -620,12 +788,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18659128" sideWeight="0.4941003" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19063005" sideWeight="0.4941003" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890856" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25516224" sideWeight="0.51130855" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34513274" sideWeight="0.48869145" order="10" side_tool="false" content_ui="tabs" />
@@ -700,72 +869,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php_basics_tasks/11.php</url>
+          <url>file://$PROJECT_DIR$/august/php_basics_tasks/11.php</url>
           <line>2</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php_basics_tasks/12.php</url>
+          <url>file://$PROJECT_DIR$/august/php_basics_tasks/12.php</url>
           <line>6</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="15" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/september/HW/filesystem/3ysZaLdbEro.jpg" />
-    <entry file="file://$PROJECT_DIR$/september/HW/filesystem/easter-eggs-2168521_1280.jpg" />
-    <entry file="file://$PROJECT_DIR$/september/HW/filesystem/gallery/gallery_files/3ysZaLdbEro.jpg" />
-    <entry file="file://$PROJECT_DIR$/september/HW/filesystem/gallery/gallery_files/176915_483317491690200_1654227635_o.jpg" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/fileinfo/fileinfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="157" column="48" lean-forward="false" selection-start-line="157" selection-start-column="48" selection-end-line="157" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="481" column="18" lean-forward="false" selection-start-line="481" selection-start-column="9" selection-end-line="481" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/dwdw.php" />
-    <entry file="file://$PROJECT_DIR$/TEST/dwdwd.js" />
-    <entry file="file://$PROJECT_DIR$/TEST/dejdkwd.php" />
-    <entry file="file://$PROJECT_DIR$/TEST/fefw.js" />
-    <entry file="file://$PROJECT_DIR$/TEST/fewfw.js" />
-    <entry file="file://$PROJECT_DIR$/TEST/wddaawd.html" />
-    <entry file="file://$PROJECT_DIR$/TEST/1111.js" />
-    <entry file="file://$PROJECT_DIR$/TEST/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/TEST/dwdwdw.css" />
-    <entry file="file://$PROJECT_DIR$/september/arrays_second_lesson.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/swd.css" />
-    <entry file="file://$PROJECT_DIR$/TEST/dwwd.js" />
-    <entry file="file://$PROJECT_DIR$/TEST/de.css" />
-    <entry file="file://$PROJECT_DIR$/september/HW/comments/data.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TEST/ceecece.css" />
-    <entry file="file://$PROJECT_DIR$/TEST/dwdw.html" />
-    <entry file="file://$PROJECT_DIR$/TEST/dfwf.js" />
-    <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/dwdw" />
     <entry file="file://$PROJECT_DIR$/TEST/dwdwd.php" />
     <entry file="file://$PROJECT_DIR$/TEST/dwqdq.css" />
     <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/dddddd" />
@@ -775,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="252" column="21" lean-forward="false" selection-start-line="252" selection-start-column="3" selection-end-line="252" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,9 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <marker date="1506343926000" expanded="true" signature="2429:2493" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -809,19 +923,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/cookies/folder3ysZaLdbEro.jpg" />
-    <entry file="file://$PROJECT_DIR$/september/HW/comments/comments.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="85" column="19" lean-forward="false" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/cookies/folder/index.html" />
     <entry file="file://$PROJECT_DIR$/september/HW/cookies/folder/3ysZaLdbEro.jpg" />
     <entry file="file://$PROJECT_DIR$/september/HW/cookies/folder/176915_483317491690200_1654227635_o (1).jpg" />
@@ -829,17 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/september/HW/filesystem/gallery/gallery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1506335598000" expanded="true" signature="2144:2204" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,51 +941,233 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2227">
           <caret line="131" column="30" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/september/cw_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/Fedora.php" />
     <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/ff.txt" />
-    <entry file="file://$PROJECT_DIR$/september/HW/cookies/folder/iOa430s9qNA.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/september/HW/cookies/folder/jonas-vincent-2717.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/cookies/folder/iOa430s9qNA.jpg" />
+    <entry file="file://$PROJECT_DIR$/september/HW/cookies/folder/jonas-vincent-2717.jpg" />
     <entry file="file://$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="1564">
           <caret line="92" column="75" lean-forward="false" selection-start-line="92" selection-start-column="75" selection-end-line="92" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/september/HW/cookies/cookieMain.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/filesystem/gallery/gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/CW/pr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/arrays_second_lesson.php" />
+    <entry file="file://$PROJECT_DIR$/../CSS_CASTS/2/container.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/october/MySQL/CW/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/cw_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/comments/comments.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/config/users.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/config/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="17" column="62" lean-forward="false" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/config/users.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="76" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <marker date="1506516491000" expanded="true" signature="1384:1901" ph="..." />
-            <marker date="1506516491000" expanded="true" signature="1391:1410" ph="..." />
-            <marker date="1506516491000" expanded="true" signature="1391:1652" ph="..." />
-            <marker date="1506516491000" expanded="true" signature="1445:1559" ph="..." />
-            <marker date="1506516491000" expanded="true" signature="1659:1674" ph="..." />
-            <marker date="1506516491000" expanded="true" signature="1659:1893" ph="..." />
-            <marker date="1506516491000" expanded="true" signature="1710:1885" ph="..." />
+            <element signature="n#style#0;n#div#0;n#main#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="9" column="48" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-497">
+          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/config/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Backend-master/headers-2/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="89" lean-forward="false" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/inc/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/september/HW/auth/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
