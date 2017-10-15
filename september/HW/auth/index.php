@@ -3,8 +3,8 @@ session_start();
 define('DS', DIRECTORY_SEPARATOR);
 ini_set('display_errors', 1);
 
-$usersStorage = 'config'.DS.'users.txt';
 $config = require 'config'.DS.'global.php';
+$usersStorage = $config['userPath'];
 
 ob_start();
 ?>
@@ -38,14 +38,9 @@ ob_start();
         include 'inc'.DS.$part.'.php';
 
         $partContent = str_ireplace(
-            '{{basket}}',
-            "В корзине 3 товара",
+            array('{{basket}}', '{{login}}'),
+            array("В корзине 3 товара", $_SESSION['login']),
             ob_get_clean());
-
-        $partContent = str_ireplace(
-            '{{login}}',
-            $_SESSION['login'],
-            $partContent);
 
         echo $partContent;
     }

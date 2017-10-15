@@ -4,7 +4,8 @@ $salt = sha1('salt');
 
 return [
     'salt' => $salt,
-    'users' => unserialize(file_get_contents($usersStorage)),
+    'userPath' => 'config'.DS.'users.txt',
+    'users' => unserialize(file_get_contents('config'.DS.'users.txt')),
     'company' => 'Наша Компания',
     'pageIdParam' => 'page',
     'menu' => [

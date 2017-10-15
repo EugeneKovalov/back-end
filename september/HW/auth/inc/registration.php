@@ -31,6 +31,7 @@ if (isset($postData['signUp'])) {
         $config['users'] = $tmp;
 
         header("Location: ?page=auth");
+        die('Successful registered!');
     }
 }
 
