@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gendos
- * Date: 10/16/17
- * Time: 19:58
- */
 
-
-if (isset($_POST['save'])) {
+if (isset($_POST['save']) || isset($_POST['delete'])) {
     $id = $_POST['id'];
     $title = $_POST['title'];
     $data = [];
@@ -17,6 +10,9 @@ if (isset($_POST['save'])) {
     }
 
     if (!empty($data)) {
+        if (isset($_POST['delete'])) {
+            $result = deleteCategory($id, $data);
+        }
         if ($id > 0) {
             $result = updateCategory($id, $data);
         } else {
@@ -56,6 +52,12 @@ $categoryResult = categoryList();
             <a href="?page=category&id=<?=$category['id']?>">
                 <?=$category['id']?>: <?=$category['title']?>
             </a>
+
+            <form action="?page=category" method="post" style="display: inline; margin-left: 20px">
+                <input type="hidden" name="id" value="<?=$category['id']?>">
+                <input type="hidden" name="title" value="<?=$category['title']?>">
+                <input type="submit" name="delete" value="Удалить">
+            </form>
         </li>
         <?
     }

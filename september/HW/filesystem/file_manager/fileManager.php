@@ -1,10 +1,28 @@
 <?php
+//1. https://github.com/EugeneKovalov/back-end/blob/master/september/HW/filesystem/file_manager/fileManager.php#L80 - если здесь (и в rename_file, и в edit_file инпутах) - передавать не просто имя, а полный путь к файлу относительно корня, то можно будет избавиться от циклов тут https://github.com/EugeneKovalov/back-end/blob/master/september/HW/filesystem/file_manager/fileManager.php#L145, тут https://github.com/EugeneKovalov/back-end/blob/master/september/HW/filesystem/file_manager/fileManager.php#L115, и тут https://github.com/EugeneKovalov/back-end/blob/master/september/HW/filesystem/file_manager/fileManager.php#L160
+//
+//2. https://github.com/EugeneKovalov/back-end/blob/master/september/HW/filesystem/file_manager/fileManager.php#L149 - переименование происходит, когда список файлов уже выведен, поэтому чтобы увидеть новое имя файла человеку придется обновить страницу. Аналогично с удалением. Вообще по-хорошему все реальные операции над файлами - обработки форм переименования, удаления, редактирования - делать еще до того, как мы собираем информацию о файлах.
+
 
 define('DS', DIRECTORY_SEPARATOR);
 // Определим корневую директорию
 $base = $_SERVER['DOCUMENT_ROOT'];
 // Определяем путь выбранной директории относительно корня
 $path = '';
+
+// REMOVE FILE
+if (isset($_POST['remove_button'])) {
+    $fileName = $base.DS.$path.DS.$_POST['removeFile'];
+
+    if(is_dir($fileName)) {
+        echo $fileName . " dir has been deleted.";
+        rmdir($fileName);
+    } else {
+        echo $fileName . " file has been deleted.";
+        unlink($fileName);
+    }
+}
+
 if (!empty($_GET['dir']) && !in_array($_GET['dir'], ['.', '/'])) {
     $path = $_GET['dir'];
 }
@@ -149,27 +167,6 @@ foreach ($files as $file) {
                             rename($item['path'], $base.DS.$path.DS.$_POST['new_file']);
                             echo $fileName . " file has been renamed.";
                             break;
-                        }
-                    }
-                endif;?>
-
-                <!--            REMOVE FILE-->
-                <?if (isset($_POST['remove_button'])):
-                    $fileName = $_POST['removeFile'];
-
-                    foreach ($result as $item) {
-                        if ($fileName == $item['name']) {
-                            $abs = $item['path'];
-
-                            if(is_dir($abs)) {
-                                echo $fileName . " dir has been deleted.";
-                                rmdir($item['path']);
-                                break;
-                            } else {
-                                echo $fileName . " file has been deleted.";
-                                unlink($item['path']);
-                                break;
-                            }
                         }
                     }
                 endif;?>

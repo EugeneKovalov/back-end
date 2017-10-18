@@ -1,12 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gendos
- * Date: 10/16/17
- * Time: 20:02
- */
-
-
 
 $dbHost = 'localhost';
 $dbUser = 'goods';
@@ -88,6 +80,14 @@ function createCategory($fields)
     );
 }
 
+function createProduct($fields)
+{
+    return createEntity(
+        $GLOBALS['tablesMap']['product'],
+        $fields
+    );
+}
+
 /**
  * @param $tableName
  * @param $data
@@ -103,6 +103,7 @@ function createEntity($tableName, $data)
 
     $cols = implode(',', array_keys($data));
     $values = "'".implode("','", $data)."'";
+
     return mysqli_query(
         $connection,
         "INSERT INTO $tableName ($cols) VALUES ($values)"
@@ -125,6 +126,14 @@ function updateCategory($id, $data)
     );
 }
 
+function updateProduct($id, $data)
+{
+    return updateEntity(
+        $GLOBALS['tablesMap']['product'],
+        $id,
+        $data
+    );
+}
 
 /**
  * @param $tableName
@@ -148,5 +157,55 @@ function updateEntity($tableName, $id, $data)
     return mysqli_query(
         $connection,
         "UPDATE $tableName SET $values WHERE id = $id;"
+    );
+}
+
+/** Delete entity */
+
+/**
+ * @param $id
+ * @param $data
+ * @return bool|mysqli_result
+ */
+function deleteCategory($id, $data)
+{
+    return deleteEntity(
+        $GLOBALS['tablesMap']['category'],
+        $id,
+        $data
+    );
+}
+
+function deleteProduct($id, $data)
+{
+    return deleteEntity(
+        $GLOBALS['tablesMap']['product'],
+        $id,
+        $data
+    );
+}
+
+/**
+ * @param $tableName
+ * @param $id
+ * @param $data
+ * @return bool|mysqli_result
+ */
+function deleteEntity($tableName, $id, $data)
+{
+    global $connection;
+
+    $values = [];
+
+    foreach ($data as $key => $val) {
+        $val = mysqli_escape_string($connection, $val);
+        $values[] = "$key = '$val'";
+    }
+
+    $values = implode(',', $values);
+
+    return mysqli_query(
+        $connection,
+        "DELETE FROM $tableName WHERE id = $id;"
     );
 }

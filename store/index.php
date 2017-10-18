@@ -1,14 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gendos
- * Date: 10/16/17
- * Time: 19:08
- */
 
 include_once('lib/core.php');
 
-$incPath = $_SERVER['DOCUMENT_ROOT'].'/05_practice_store/inc/public';
+$incPath = $_SERVER['DOCUMENT_ROOT'].'/PHP-Academy/store/inc/public';
 
 $page = 'main';
 
