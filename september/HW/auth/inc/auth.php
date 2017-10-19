@@ -13,6 +13,7 @@ if (isset($postData['signIn'])) {
             $_SESSION['auth'] = true;
 
             header("Location: index.php");
+            die('Successful auth!');
         } else {
             $errors[] = 'Incorrect password!';
         }
@@ -20,8 +21,6 @@ if (isset($postData['signIn'])) {
         $errors[] = 'Enter login name!';
     }
 }
-
-
 ?>
 <div class="container">
     <main class="row">
