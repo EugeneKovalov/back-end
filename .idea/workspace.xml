@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/october/Obj/obj.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/october/MySQL/HW/hw_2.sql" afterPath="$PROJECT_DIR$/october/MySQL/HW/hw_2.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/september/HW/auth/inc/auth.php" afterPath="$PROJECT_DIR$/september/HW/auth/inc/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/october/Obj/obj.php" afterPath="$PROJECT_DIR$/october/Obj/obj.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,17 +107,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="obj.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="obj.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/october/Obj/obj.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="108">
+              <caret line="361" column="33" lean-forward="true" selection-start-line="361" selection-start-column="33" selection-end-line="361" selection-end-column="33" />
+              <folding>
+                <marker date="1508436007069" expanded="true" signature="5332:5425" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hw_2.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hw_2.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/october/MySQL/HW/hw_2.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
@@ -168,6 +168,7 @@
       <find>$value</find>
       <find>echo</find>
       <find>$galleryDir</find>
+      <find>Worker</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -240,8 +241,8 @@
         <option value="$PROJECT_DIR$/Test/dqwadw.php" />
         <option value="$PROJECT_DIR$/september/HW/filesystem/file_manager/fileManager.php" />
         <option value="$PROJECT_DIR$/september/HW/auth/inc/auth.php" />
-        <option value="$PROJECT_DIR$/october/Obj/obj.php" />
         <option value="$PROJECT_DIR$/october/MySQL/HW/hw_2.sql" />
+        <option value="$PROJECT_DIR$/october/Obj/obj.php" />
       </list>
     </option>
   </component>
@@ -324,14 +325,7 @@
               <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="october" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="MySQL" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="october" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="MySQL" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="HW" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Obj" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -442,7 +436,7 @@
       <workItem from="1507464937637" duration="758000" />
       <workItem from="1507467599723" duration="537000" />
       <workItem from="1507473806089" duration="1782000" />
-      <workItem from="1507560430445" duration="49379000" />
+      <workItem from="1507560430445" duration="56374000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502977073321</created>
@@ -731,11 +725,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508337352414</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="MySQL HW_2">
+      <created>1508410142676</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1508410142676</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318811000" />
+    <option name="totallyTimeSpent" value="325806000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -828,7 +829,8 @@
     <MESSAGE value="Store added" />
     <MESSAGE value="Store delete categories added&#10;Store product page editing added" />
     <MESSAGE value="Filemanager Fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filemanager Fixes" />
+    <MESSAGE value="MySQL HW_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="MySQL HW_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1263,14 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/october/Obj/obj.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/october/MySQL/HW/sample.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-155">
@@ -1284,6 +1278,16 @@
         <state relative-caret-position="320">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/october/Obj/obj.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="361" column="33" lean-forward="true" selection-start-line="361" selection-start-column="33" selection-end-line="361" selection-end-column="33" />
+          <folding>
+            <marker date="1508436007069" expanded="true" signature="5332:5425" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
