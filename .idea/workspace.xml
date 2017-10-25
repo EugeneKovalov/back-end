@@ -4,10 +4,6 @@
     <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/admin.php" afterPath="$PROJECT_DIR$/store/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/inc/admin/category.php" afterPath="$PROJECT_DIR$/store/inc/admin/category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/inc/admin/product.php" afterPath="$PROJECT_DIR$/store/inc/admin/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/index.php" afterPath="$PROJECT_DIR$/store/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/lib/db.php" afterPath="$PROJECT_DIR$/store/lib/db.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,8 +32,8 @@
       <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/store/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -431,7 +427,7 @@
       <workItem from="1508705504730" duration="1613000" />
       <workItem from="1508836065808" duration="1245000" />
       <workItem from="1508864838069" duration="10000" />
-      <workItem from="1508933727395" duration="2699000" />
+      <workItem from="1508933727395" duration="3153000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1502977073321</created>
@@ -734,11 +730,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508436031149</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Store HW added">
+      <created>1508939084710</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1508939084710</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="337737000" />
+    <option name="totallyTimeSpent" value="338191000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -834,7 +837,8 @@
     <MESSAGE value="Filemanager Fixes" />
     <MESSAGE value="MySQL HW_2" />
     <MESSAGE value="Objects added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Objects added" />
+    <MESSAGE value="Store HW added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Store HW added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1110,8 +1114,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/store/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>

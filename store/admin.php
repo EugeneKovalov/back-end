@@ -1,18 +1,18 @@
 <?php
 
-$LoginSuccessful = false;
+$isLoginSuccess = false;
 
 if (isset($_SERVER['PHP_AUTH_USER']) && isset($_SERVER['PHP_AUTH_PW'])) {
 
-    $Username = $_SERVER['PHP_AUTH_USER'];
-    $Password = $_SERVER['PHP_AUTH_PW'];
+    $userName = $_SERVER['PHP_AUTH_USER'];
+    $password = $_SERVER['PHP_AUTH_PW'];
 
-    if ($Username == 'admin' && $Password == 'admin') {
-        $LoginSuccessful = true;
+    if ($userName == 'admin' && $password == 'admin') {
+        $isLoginSuccess = true;
     }
 }
 
-if (!$LoginSuccessful){
+if (!$isLoginSuccess){
     header('WWW-Authenticate: Basic realm="Alert! Stop! Security over here!"');
     header('HTTP/1.0 401 Unauthorized');
 
