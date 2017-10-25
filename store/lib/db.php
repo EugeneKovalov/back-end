@@ -24,9 +24,9 @@ $tablesMap = [
  * @param null $id
  * @return bool|mysqli_result
  */
-function categoryList($id = null)
+function categoryList($id = null, $from)
 {
-    return getList($GLOBALS['tablesMap']['category'], $id);
+    return getList($GLOBALS['tablesMap']['category'], $id, $from);
 }
 
 
@@ -34,9 +34,9 @@ function categoryList($id = null)
  * @param null $id
  * @return bool|mysqli_result
  */
-function productList($id = null)
+function productList($id = null, $from)
 {
-    return getList($GLOBALS['tablesMap']['product'], $id);
+    return getList($GLOBALS['tablesMap']['product'], $id, $from);
 }
 
 /**
@@ -44,7 +44,7 @@ function productList($id = null)
  * @param null $id
  * @return bool|mysqli_result
  */
-function getList($tableName, $id = null)
+function getList($tableName, $id = null, $from)
 {
     global $connection;
 
@@ -57,7 +57,7 @@ function getList($tableName, $id = null)
 
     $result = mysqli_query(
         $connection,
-        "SELECT * FROM $tableName $where;"
+        "SELECT * FROM $tableName $where LIMIT $from, 5;"
     );
 
     return $result;

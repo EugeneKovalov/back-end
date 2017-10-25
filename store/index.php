@@ -2,7 +2,11 @@
 
 include_once('lib/core.php');
 
-$incPath = $_SERVER['DOCUMENT_ROOT'].'/PHP-Academy/store/inc/public';
+if ($destination) {
+    $incPath = $_SERVER['DOCUMENT_ROOT'].'/PHP-Academy/store/inc/'.$destination;
+} else {
+    $incPath = $_SERVER['DOCUMENT_ROOT'].'/PHP-Academy/store/inc/public';
+}
 
 $page = 'main';
 

@@ -21,17 +21,28 @@ if (isset($_POST['save']) || isset($_POST['delete'])) {
     }
 }
 
+if(isset($_GET['p'])) {
+    $page = $_GET['p'];
+} else {
+    $page = 0;
+}
+
+if ($page < 2) {
+    $from = 0;
+} else {
+    $from = ($page * 5) - 5;
+}
+
 $id = $_GET['id'];
-$categoryResult = categoryList();
+$categoryResult = categoryList(0, $from);
 
 ?>
 <div>
     <a href="?page=category&id=0">Добавить категорию</a>
     <?php if (isset($id)) {
-
         $title = '';
         if ($id > 0) {
-            $category = mysqli_fetch_assoc(categoryList($id));
+            $category = mysqli_fetch_assoc(categoryList($id, $from));
             $title = $category['title'];
         }
 
@@ -45,6 +56,9 @@ $categoryResult = categoryList();
     <? } ?>
     <ul>
     <?php
+    $category_count = "SELECT * FROM category";
+    $find_count = mysqli_query($connection, $category_count);
+    $count = mysqli_num_rows($find_count);
 
     while ($category = mysqli_fetch_assoc($categoryResult)) {
         ?>
@@ -63,4 +77,13 @@ $categoryResult = categoryList();
     }
     ?>
     </ul>
+    <div class="pagination">
+        <?php
+        for ($i = 1; $i <= ceil($count / 5); $i++) {
+            ?>
+            <a href="?page=category&p=<?=$i?>"><?=$i?></a>
+            <?php
+        }
+        ?>
+    </div>
 </div>

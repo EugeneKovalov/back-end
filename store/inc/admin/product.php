@@ -40,8 +40,20 @@ if (isset($_POST['delete'])) {
     }
 }
 
+if(isset($_GET['p'])) {
+    $page = $_GET['p'];
+} else {
+    $page = 0;
+}
+
+if ($page < 2) {
+    $from = 0;
+} else {
+    $from = ($page * 5) - 5;
+}
+
 $id = $_GET['id'];
-$productResult = productList();
+$productResult = productList(0, $from);
 
 ?>
 <div>
@@ -52,7 +64,7 @@ $productResult = productList();
         $price = 1;
 
         if ($id > 0) {
-            $product = mysqli_fetch_assoc(productList($id));
+            $product = mysqli_fetch_assoc(productList($id, $from));
             $title = $product['title'];
             $price = $product['price'];
             $currentSelect = $product['category_id'];
@@ -68,16 +80,16 @@ $productResult = productList();
             <label for="fk">
                 <select name="fk">
                     <?php
-                    $categoryList = categoryList();
-                    while ($category = mysqli_fetch_assoc($categoryList)) {
+                    $productList = productList();
+                    while ($product = mysqli_fetch_assoc($productList)) {
                         ?>
-                        <option value="<?=$category['id']?>"
-                            <? if ($currentSelect === $category['id']) {
+                        <option value="<?=$product['id']?>"
+                            <? if ($currentSelect === $product['id']) {
                                 ?> selected <?
                             }
                             ?>
                         >
-                            <?=$category['title']?>
+                            <?=$product['title']?>
                         </option>
                     <? } ?>
                 </select>
@@ -87,6 +99,10 @@ $productResult = productList();
     <? } ?>
     <ul>
         <?php
+        $product_count = "SELECT * FROM product";
+        $find_count = mysqli_query($connection, $product_count);
+        $count = mysqli_num_rows($find_count);
+
         while ($product = mysqli_fetch_assoc($productResult)) {
             ?>
             <li>
@@ -107,9 +123,9 @@ $productResult = productList();
 
     <div class="pagination">
         <?php
-        for ($i = 1; $i <= 6; $i++) {
+        for ($i = 1; $i <= ceil($count / 5); $i++) {
             ?>
-            <a href="?page=product&p=<?= $i ?>"><?= $i ?></a>
+            <a href="?page=product&p=<?=$i?>"><?=$i?></a>
             <?php
         }
         ?>
