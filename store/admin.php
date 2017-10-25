@@ -14,7 +14,7 @@ if (isset($_SERVER['PHP_AUTH_USER']) && isset($_SERVER['PHP_AUTH_PW'])) {
 
 if (!$isLoginSuccess){
     header('WWW-Authenticate: Basic realm="Alert! Stop! Security over here!"');
-    header('HTTP/1.0 401 Unauthorized');
+    header('HTTP/1.1 401 Unauthorized');
 
     print "Login failed!".PHP_EOL;
 }
