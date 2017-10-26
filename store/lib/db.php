@@ -14,40 +14,44 @@ $connection = mysqli_connect(
 
 $tablesMap = [
     'category' => 'category',
-    'product' => 'product',
+    'product' => 'product'
 ];
-
 
 /** Get entity */
 
 /**
  * @param null $id
+ * @param null $from
+ * @param null $count
  * @return bool|mysqli_result
  */
-function categoryList($id = null, $from)
+function categoryList($id = null, $from = null, $count = null)
 {
-    return getList($GLOBALS['tablesMap']['category'], $id, $from);
+    return getList($GLOBALS['tablesMap']['category'], $id, $from, $count);
 }
 
 
 /**
  * @param null $id
+ * @param null $from
+ * @param null $count
  * @return bool|mysqli_result
  */
-function productList($id = null, $from)
+function productList($id = null, $from = null, $count = null)
 {
-    return getList($GLOBALS['tablesMap']['product'], $id, $from);
+    return getList($GLOBALS['tablesMap']['product'], $id, $from, $count);
 }
 
 /**
  * @param $tableName
  * @param null $id
+ * @param null $from
+ * @param null $count
  * @return bool|mysqli_result
  */
-function getList($tableName, $id = null, $from)
+function getList($tableName, $id = null, $from = null, $count = null)
 {
     global $connection;
-
 
     $where = '';
 
@@ -55,15 +59,21 @@ function getList($tableName, $id = null, $from)
         $where = ' WHERE id = '.$id;
     }
 
+    if (isset($from)) {
+        if ($count) {
+            $query = "SELECT * FROM $tableName LIMIT $from, $count;";
+        } else {
+            $query = "SELECT * FROM $tableName LIMIT $from;";
+        }
+    } else {
+        $query = "SELECT * FROM $tableName $where;";
+    }
     $result = mysqli_query(
-        $connection,
-        "SELECT * FROM $tableName $where LIMIT $from, 5;"
+        $connection, $query
     );
 
     return $result;
 }
-
-
 
 
 /** Create entity */
@@ -106,7 +116,7 @@ function createEntity($tableName, $data)
 
     return mysqli_query(
         $connection,
-        "INSERT INTO $tableName ($cols) VALUES ($values)"
+        "INSERT INTO $tableName ($cols) VALUES ($values);"
     );
 }
 
@@ -164,48 +174,45 @@ function updateEntity($tableName, $id, $data)
 
 /**
  * @param $id
- * @param $data
  * @return bool|mysqli_result
  */
-function deleteCategory($id, $data)
+function deleteCategory($id)
 {
     return deleteEntity(
         $GLOBALS['tablesMap']['category'],
-        $id,
-        $data
+        $id
     );
 }
 
-function deleteProduct($id, $data)
+function deleteProduct($id)
 {
     return deleteEntity(
         $GLOBALS['tablesMap']['product'],
-        $id,
-        $data
+        $id
     );
 }
 
 /**
  * @param $tableName
  * @param $id
- * @param $data
  * @return bool|mysqli_result
  */
-function deleteEntity($tableName, $id, $data)
+function deleteEntity($tableName, $id)
 {
     global $connection;
-
-    $values = [];
-
-    foreach ($data as $key => $val) {
-        $val = mysqli_escape_string($connection, $val);
-        $values[] = "$key = '$val'";
-    }
-
-    $values = implode(',', $values);
 
     return mysqli_query(
         $connection,
         "DELETE FROM $tableName WHERE id = $id;"
     );
+}
+
+function getCountItems($tableName)
+{
+    global $connection;
+
+    $product_count = "SELECT * FROM $tableName";
+    $find_count = mysqli_query($connection, $product_count);
+    $count = mysqli_num_rows($find_count);
+    return $count;
 }

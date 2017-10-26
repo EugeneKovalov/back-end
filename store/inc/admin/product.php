@@ -1,4 +1,5 @@
 <?php
+define("COUNT", 5);
 
 if (isset($_POST['save'])) {
     $id = $_POST['id'];
@@ -25,18 +26,9 @@ if (isset($_POST['save'])) {
 
 if (isset($_POST['delete'])) {
     $id = $_POST['id'];
-    $title = $_POST['title'];
 
-    $data = [];
-
-    if (strlen($title)) {
-        $data['title'] = $title;
-    }
-
-    if (!empty($data)) {
-        if ($id > 0) {
-            $result = deleteProduct($id, $data);
-        }
+    if ($id > 0) {
+        $result = deleteProduct($id);
     }
 }
 
@@ -49,11 +41,11 @@ if(isset($_GET['p'])) {
 if ($page < 2) {
     $from = 0;
 } else {
-    $from = ($page * 5) - 5;
+    $from = ($page * COUNT) - COUNT;
 }
 
 $id = $_GET['id'];
-$productResult = productList(0, $from);
+$productResult = productList(null, $from, COUNT);
 
 ?>
 <div>
@@ -64,7 +56,7 @@ $productResult = productList(0, $from);
         $price = 1;
 
         if ($id > 0) {
-            $product = mysqli_fetch_assoc(productList($id, $from));
+            $product = mysqli_fetch_assoc(productList($id));
             $title = $product['title'];
             $price = $product['price'];
             $currentSelect = $product['category_id'];
@@ -80,16 +72,16 @@ $productResult = productList(0, $from);
             <label for="fk">
                 <select name="fk">
                     <?php
-                    $productList = productList();
-                    while ($product = mysqli_fetch_assoc($productList)) {
+                    $categoryList = categoryList();
+                    while ($category = mysqli_fetch_assoc($categoryList)) {
                         ?>
-                        <option value="<?=$product['id']?>"
-                            <? if ($currentSelect === $product['id']) {
+                        <option value="<?=$category['id']?>"
+                            <? if ($currentSelect == $category['id']) {
                                 ?> selected <?
                             }
                             ?>
                         >
-                            <?=$product['title']?>
+                            <?=$category['title']?>
                         </option>
                     <? } ?>
                 </select>
@@ -99,9 +91,6 @@ $productResult = productList(0, $from);
     <? } ?>
     <ul>
         <?php
-        $product_count = "SELECT * FROM product";
-        $find_count = mysqli_query($connection, $product_count);
-        $count = mysqli_num_rows($find_count);
 
         while ($product = mysqli_fetch_assoc($productResult)) {
             ?>
@@ -112,7 +101,6 @@ $productResult = productList(0, $from);
 
                 <form action="?page=product" method="post" style="display: inline; margin-left: 20px">
                     <input type="hidden" name="id" value="<?=$product['id']?>">
-                    <input type="hidden" name="title" value="<?=$product['title']?>">
                     <input type="submit" name="delete" value="Удалить">
                 </form>
             </li>
@@ -123,7 +111,7 @@ $productResult = productList(0, $from);
 
     <div class="pagination">
         <?php
-        for ($i = 1; $i <= ceil($count / 5); $i++) {
+        for ($i = 1; $i <= ceil(getCountItems('product') / COUNT); $i++) {
             ?>
             <a href="?page=product&p=<?=$i?>"><?=$i?></a>
             <?php

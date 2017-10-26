@@ -1,24 +1,28 @@
 <?php
+define("COUNT", 5);
 
-if (isset($_POST['save']) || isset($_POST['delete'])) {
+if (isset($_POST['save'])) {
     $id = $_POST['id'];
     $title = $_POST['title'];
     $data = [];
 
     if (strlen($title)) {
-       $data['title'] = $title;
+        $data['title'] = $title;
     }
 
     if (!empty($data)) {
-        if (isset($_POST['delete'])) {
-            $result = deleteCategory($id, $data);
-        }
         if ($id > 0) {
             $result = updateCategory($id, $data);
         } else {
             $result = createCategory($data);
         }
     }
+}
+
+if (isset($_POST['delete'])) {
+    $id = $_POST['id'];
+
+    $result = deleteCategory($id);
 }
 
 if(isset($_GET['p'])) {
@@ -30,11 +34,11 @@ if(isset($_GET['p'])) {
 if ($page < 2) {
     $from = 0;
 } else {
-    $from = ($page * 5) - 5;
+    $from = ($page * COUNT) - COUNT;
 }
 
 $id = $_GET['id'];
-$categoryResult = categoryList(0, $from);
+$categoryResult = categoryList(0, $from, COUNT);
 
 ?>
 <div>
@@ -55,31 +59,30 @@ $categoryResult = categoryList(0, $from);
         </form>
     <? } ?>
     <ul>
-    <?php
-    $category_count = "SELECT * FROM category";
-    $find_count = mysqli_query($connection, $category_count);
-    $count = mysqli_num_rows($find_count);
+        <?php
+        $category_count = "SELECT * FROM category";
+        $find_count = mysqli_query($connection, $category_count);
+        $count = mysqli_num_rows($find_count);
 
-    while ($category = mysqli_fetch_assoc($categoryResult)) {
+        while ($category = mysqli_fetch_assoc($categoryResult)) {
+            ?>
+            <li>
+                <a href="?page=category&id=<?=$category['id']?>">
+                    <?=$category['id']?>: <?=$category['title']?>
+                </a>
+
+                <form action="?page=category" method="post" style="display: inline; margin-left: 20px">
+                    <input type="hidden" name="id" value="<?=$category['id']?>">
+                    <input type="submit" name="delete" value="Удалить">
+                </form>
+            </li>
+            <?
+        }
         ?>
-        <li>
-            <a href="?page=category&id=<?=$category['id']?>">
-                <?=$category['id']?>: <?=$category['title']?>
-            </a>
-
-            <form action="?page=category" method="post" style="display: inline; margin-left: 20px">
-                <input type="hidden" name="id" value="<?=$category['id']?>">
-                <input type="hidden" name="title" value="<?=$category['title']?>">
-                <input type="submit" name="delete" value="Удалить">
-            </form>
-        </li>
-        <?
-    }
-    ?>
     </ul>
     <div class="pagination">
         <?php
-        for ($i = 1; $i <= ceil($count / 5); $i++) {
+        for ($i = 1; $i <= ceil(getCountItems('category') / COUNT); $i++) {
             ?>
             <a href="?page=category&p=<?=$i?>"><?=$i?></a>
             <?php

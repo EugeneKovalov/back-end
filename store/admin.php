@@ -12,7 +12,7 @@ if (isset($_SERVER['PHP_AUTH_USER']) && isset($_SERVER['PHP_AUTH_PW'])) {
     }
 }
 
-if (!$isLoginSuccess){
+if (!$isLoginSuccess) {
     header('WWW-Authenticate: Basic realm="Alert! Stop! Security over here!"');
     header('HTTP/1.1 401 Unauthorized');
 
