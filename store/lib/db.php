@@ -60,7 +60,7 @@ function getList($tableName, $id = null, $from = null, $count = null)
     }
 
     if (isset($from)) {
-        if ($count) {
+        if (isset($count)) {
             $query = "SELECT * FROM $tableName LIMIT $from, $count;";
         } else {
             $query = "SELECT * FROM $tableName LIMIT $from;";
