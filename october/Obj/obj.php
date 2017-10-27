@@ -161,7 +161,7 @@ class Task4
 
 $dimaTask4 = new Task4("Dima", 25, 1000);
 
-echo "Cумма возраста и зарплаты Димы = " . ($dimaTask4->getAge() + $dimaTask4->getSalary()).PHP_EOL;
+echo "Произведение возраста и зарплаты Димы = " . ($dimaTask4->getAge() * $dimaTask4->getSalary()).PHP_EOL;
 
 // 5
 class User
@@ -279,14 +279,50 @@ class Driver extends Worker
     /** @var  int */
     private $drivingExperience;
     private $drivingCategory = ['A', 'B', 'C'];
+
+    /**
+     * @return int
+     */
+    public function getDrivingExperience(): int
+    {
+        return $this->drivingExperience;
+    }
+
+    /**
+     * @param int $drivingExperience
+     */
+    public function setDrivingExperience(int $drivingExperience)
+    {
+        $this->drivingExperience = $drivingExperience;
+    }
+
+    /**
+     * @return array
+     */
+    public function getDrivingCategory(): array
+    {
+        return $this->drivingCategory;
+    }
+
+    /**
+     * @param array $drivingCategory
+     */
+    public function setDrivingCategory(array $drivingCategory)
+    {
+        $this->drivingCategory = $drivingCategory;
+    }
 }
 
 // 7
 class Form
 {
+    private function pushElement($attributes, $element)
+    {
+
+    }
     function input($attributes)
     {
-        echo "<input type=\"$attributes[0]\" " . "value=\"$attributes[1]\">".PHP_EOL;
+        echo $this->pushElement($attributes, "<input type='{attr}'" . "value='{attr}'>".PHP_EOL);
     }
 
     function submit($attributes)
@@ -326,17 +362,20 @@ $form->close();
 // 8
 class Cookie
 {
-    function setCookie($name, $value)
+    function set($name, $value)
     {
         setcookie($name, $value);
     }
 
-    function getCookie($name)
+    function get($name)
     {
-        return $_COOKIE[$name];
+        if(isset($_COOKIE[$name])) {
+            return $_COOKIE[$name];
+        }
+        echo "No cookie with " . $name . " has been found".PHP_EOL;
     }
 
-    function delCookie($name)
+    function delete($name)
     {
         setcookie($name, "", time() - 3600);
     }
@@ -349,29 +388,31 @@ class Session
         session_start();
     }
 
-    function createSessionVar($name)
+    function create($name)
     {
         $_SESSION[$name] = $name;
     }
 
-    function getSessionVar($name)
+    function get($name)
     {
         return $_SESSION[$name];
     }
 
-    function delSessionVar($name)
+    function delete($name)
     {
         unset($_SESSION[$name]);
     }
 
-    function checkSessionVar($name)
+    function check($name) : bool
     {
-        if (isset($_SESSION['errors']))
+        if (isset($_SESSION[$name]))
         {
             echo "Сессия существует".PHP_EOL;
+            return true;
         }
         else {
             echo "Сессия не существует".PHP_EOL;
+            return false;
         }
     }
 }

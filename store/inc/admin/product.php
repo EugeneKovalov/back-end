@@ -111,7 +111,8 @@ $productResult = productList(null, $from, COUNT);
 
     <div class="pagination">
         <?php
-        for ($i = 1; $i <= ceil(getCountItems('product') / COUNT); $i++) {
+        $countLength = ceil(getCountItems('product') / COUNT);
+        for ($i = 1; $i <= $countLength; $i++) {
             ?>
             <a href="?page=product&p=<?=$i?>"><?=$i?></a>
             <?php

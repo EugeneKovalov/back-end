@@ -78,7 +78,8 @@ $categoryResult = categoryList(0, $from, COUNT);
     </ul>
     <div class="pagination">
         <?php
-        for ($i = 1; $i <= ceil(getCountItems('category') / COUNT); $i++) {
+        $countLength = ceil(getCountItems('category') / COUNT);
+        for ($i = 1; $i <= $countLength; $i++) {
             ?>
             <a href="?page=category&p=<?=$i?>"><?=$i?></a>
             <?php
