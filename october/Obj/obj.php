@@ -318,31 +318,35 @@ class Form
 {
     private function pushElement($attributes, $element)
     {
-
+        $length = count($attributes);
+        for ($i = 0; $i < $length; $i++) {
+            $element = preg_replace("{attr}", $attributes[$i], $element, 1);
+        }
+        return $element;
     }
     function input($attributes)
     {
-        echo $this->pushElement($attributes, "<input type='{attr}'" . "value='{attr}'>".PHP_EOL);
+        echo $this->pushElement($attributes, "<input type='attr'" . "value='attr'>".PHP_EOL);
     }
 
     function submit($attributes)
     {
-        echo "<input type=\"$attributes[0]\" " . "value=\"$attributes[1]\">".PHP_EOL;
+        echo $this->pushElement($attributes, "<input type='attr'" . "value='attr'>".PHP_EOL);
     }
 
     function password($attributes)
     {
-        echo "<input type=\"$attributes[0]\" " . "value=\"$attributes[1]\">".PHP_EOL;
+        echo $this->pushElement($attributes, "<input type='attr'" . "value='attr'>".PHP_EOL);
     }
 
     function textArea($attributes)
     {
-        echo "<textarea placeholder=\"$attributes[0]\">$attributes[1]</textarea>".PHP_EOL;
+        echo $this->pushElement($attributes, "<textarea placeholder='attr'>attr</textarea>".PHP_EOL);
     }
 
     function open($attributes)
     {
-        echo "<form action=\"$attributes[0]\" " . "method=\"$attributes[1]\">".PHP_EOL;
+        echo $this->pushElement($attributes, "<form action='attr'" . "method='attr'>".PHP_EOL);
     }
 
     function close()

@@ -4,8 +4,6 @@
     <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/october/Obj/obj.php" afterPath="$PROJECT_DIR$/october/Obj/obj.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/inc/admin/category.php" afterPath="$PROJECT_DIR$/store/inc/admin/category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/inc/admin/product.php" afterPath="$PROJECT_DIR$/store/inc/admin/product.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +29,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store/admin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -41,11 +39,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="obj.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="obj.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/october/Obj/obj.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+            <state relative-caret-position="-652">
+              <caret line="326" column="31" lean-forward="true" selection-start-line="326" selection-start-column="31" selection-end-line="326" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pcre.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcre/pcre.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="234" column="9" lean-forward="false" selection-start-line="234" selection-start-column="9" selection-end-line="234" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standard_1.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="590" column="23" lean-forward="false" selection-start-line="590" selection-start-column="9" selection-end-line="590" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -71,21 +89,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/lib/core.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="product.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store/inc/admin/product.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="113" column="50" lean-forward="false" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/inc/admin/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,37 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/lib/db.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="205" column="35" lean-forward="false" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
-              <folding>
-                <marker date="1509086314114" expanded="true" signature="1135:1173" ph="SELECT * FRO... ${$tableName}" />
-                <marker date="1509086314114" expanded="true" signature="1222:1253" ph="SELECT * FRO... ${$tableName}" />
-                <marker date="1509086314114" expanded="true" signature="1303:1328" ph="SELECT * FRO... ${$tableName}" />
-                <marker date="1509086314114" expanded="true" signature="2149:2196" ph="INSERT INTO ${$tableName}... " />
-                <marker date="1509086314114" expanded="true" signature="2209:2229" ph="/** Update e... " />
-                <marker date="1509086314114" expanded="true" signature="2231:2298" ph="/** * @param... " />
-                <marker date="1509086314114" expanded="true" signature="2995:3036" ph="UPDATE ${$ta... " />
-                <marker date="1509086314114" expanded="true" signature="3560:3594" ph="DELETE FROM " />
-                <marker date="1509086314114" expanded="true" signature="3571:3594" ph="UPDATE ${$ta... " />
-                <marker date="1509086314114" expanded="true" signature="3702:3708" ph="SELECT count... ${$tableName}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sample.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/october/MySQL/HW/sample.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -235,9 +222,9 @@
         <option value="$PROJECT_DIR$/store/index.php" />
         <option value="$PROJECT_DIR$/store/lib/db.php" />
         <option value="$PROJECT_DIR$/october/MySQL/HW/hw_2.sql" />
-        <option value="$PROJECT_DIR$/october/Obj/obj.php" />
         <option value="$PROJECT_DIR$/store/inc/admin/category.php" />
         <option value="$PROJECT_DIR$/store/inc/admin/product.php" />
+        <option value="$PROJECT_DIR$/october/Obj/obj.php" />
       </list>
     </option>
   </component>
@@ -314,11 +301,6 @@
             <path>
               <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="august" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="october" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -326,29 +308,6 @@
               <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="october" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Obj" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="september" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="store" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="store" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="PHP-Academy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PHP-Academy" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="store" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -463,14 +422,7 @@
       <workItem from="1508705504730" duration="1613000" />
       <workItem from="1508836065808" duration="1245000" />
       <workItem from="1508864838069" duration="10000" />
-      <workItem from="1508933727395" duration="18777000" />
-    </task>
-    <task id="LOCAL-00002" summary="test2">
-      <created>1503576329008</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1503576329008</updated>
+      <workItem from="1508933727395" duration="21226000" />
     </task>
     <task id="LOCAL-00003" summary="HW-1 CV">
       <created>1503663035370</created>
@@ -808,11 +760,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509087326800</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Store count pages optimization">
+      <created>1509096181342</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1509096181342</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353815000" />
+    <option name="totallyTimeSpent" value="356264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,7 +844,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="test2" />
     <MESSAGE value="HW-1 CV" />
     <MESSAGE value="HW-2 basic-tasks" />
     <MESSAGE value="HW-2 basic-tasks - edited" />
@@ -910,7 +868,8 @@
     <MESSAGE value="Store HW added" />
     <MESSAGE value="Store HW fixes" />
     <MESSAGE value="hw_2 sql fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_2 sql fixes" />
+    <MESSAGE value="Store count pages optimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Store count pages optimization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -931,7 +890,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/october/MySQL/CW/store (2).sql" />
     <entry file="file://$PROJECT_DIR$/october/MySQL/CW/admin.php" />
     <entry file="file://$PROJECT_DIR$/october/MySQL/CW/includes/admin/main.php" />
     <entry file="file://$PROJECT_DIR$/october/MySQL/CW/index.php" />
@@ -1018,13 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="551" column="9" lean-forward="false" selection-start-line="551" selection-start-column="9" selection-end-line="551" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test/dawda.html" />
     <entry file="file://$PROJECT_DIR$/Test/dwada.js" />
     <entry file="file://$PROJECT_DIR$/Test/dqwadw.php" />
@@ -1062,14 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/inc/admin/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1149,34 +1092,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/october/Obj/obj.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/store/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-126">
           <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/inc/admin/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/inc/admin/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="113" column="50" lean-forward="false" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1195,6 +1114,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/inc/admin/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="113" column="50" lean-forward="false" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/inc/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/inc/admin/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="590" column="23" lean-forward="false" selection-start-line="590" selection-start-column="9" selection-end-line="590" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcre/pcre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="234" column="9" lean-forward="false" selection-start-line="234" selection-start-column="9" selection-end-line="234" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/october/Obj/obj.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-652">
+          <caret line="326" column="31" lean-forward="true" selection-start-line="326" selection-start-column="31" selection-end-line="326" selection-end-column="31" />
           <folding />
         </state>
       </provider>
