@@ -318,35 +318,36 @@ class Form
 {
     private function pushElement($attributes, $element)
     {
-        $length = count($attributes);
-        for ($i = 0; $i < $length; $i++) {
-            $element = preg_replace("{attr}", $attributes[$i], $element, 1);
+        foreach ($attributes as $key => $value) {
+            $element = preg_replace("{attrType}", $key, $element, 1);
+            $element = preg_replace("{attrValue}", $value, $element, 1);
         }
+        var_dump($element);
         return $element;
     }
     function input($attributes)
     {
-        echo $this->pushElement($attributes, "<input type='attr'" . "value='attr'>".PHP_EOL);
+        echo $this->pushElement($attributes, "<input type='attrType'" . "value='attrValue'>".PHP_EOL);
     }
 
     function submit($attributes)
     {
-        echo $this->pushElement($attributes, "<input type='attr'" . "value='attr'>".PHP_EOL);
+        echo $this->pushElement($attributes, "<input type='attrType'" . "value='attrValue'>".PHP_EOL);
     }
 
     function password($attributes)
     {
-        echo $this->pushElement($attributes, "<input type='attr'" . "value='attr'>".PHP_EOL);
+        echo $this->pushElement($attributes, "<input type='attrType'" . "value='attrValue'>".PHP_EOL);
     }
 
     function textArea($attributes)
     {
-        echo $this->pushElement($attributes, "<textarea placeholder='attr'>attr</textarea>".PHP_EOL);
+        echo $this->pushElement($attributes, "<textarea placeholder='attrValue'>attrValue</textarea>".PHP_EOL);
     }
 
     function open($attributes)
     {
-        echo $this->pushElement($attributes, "<form action='attr'" . "method='attr'>".PHP_EOL);
+        echo $this->pushElement($attributes, "<form action='attrValue'" . "method='attrValue'>".PHP_EOL);
     }
 
     function close()
@@ -356,11 +357,11 @@ class Form
 }
 
 $form = new Form();
-$form->open(["index.php", "POST"]);
-$form->input(["text", "!!!"]);
-$form->password(["password", "!!!"]);
-$form->submit(["submit", "go"]);
-$form->textArea(["123", "!!!"]);
+$form->open(["action" => "index.php", "method" => "POST"]);
+$form->input(["text" => "!!!"]);
+$form->password(["password" => "!!!"]);
+$form->submit(["submit" => "go"]);
+$form->textArea(["placeholder" => "123", "value" => "!!!"]);
 $form->close();
 
 // 8

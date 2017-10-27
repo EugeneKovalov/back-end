@@ -42,8 +42,8 @@
       <file leaf-file-name="obj.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/october/Obj/obj.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-652">
-              <caret line="326" column="31" lean-forward="true" selection-start-line="326" selection-start-column="31" selection-end-line="326" selection-end-column="31" />
+            <state relative-caret-position="213">
+              <caret line="347" column="30" lean-forward="true" selection-start-line="347" selection-start-column="30" selection-end-line="347" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -422,14 +422,7 @@
       <workItem from="1508705504730" duration="1613000" />
       <workItem from="1508836065808" duration="1245000" />
       <workItem from="1508864838069" duration="10000" />
-      <workItem from="1508933727395" duration="21226000" />
-    </task>
-    <task id="LOCAL-00003" summary="HW-1 CV">
-      <created>1503663035370</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1503663035370</updated>
+      <workItem from="1508933727395" duration="22605000" />
     </task>
     <task id="LOCAL-00004" summary="HW-1 CV">
       <created>1503663138092</created>
@@ -767,11 +760,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509096181342</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Object fixes">
+      <created>1509098700803</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1509098700803</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="356264000" />
+    <option name="totallyTimeSpent" value="357643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -844,7 +844,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="HW-1 CV" />
     <MESSAGE value="HW-2 basic-tasks" />
     <MESSAGE value="HW-2 basic-tasks - edited" />
     <MESSAGE value="HW - 3 Arrays" />
@@ -869,7 +868,8 @@
     <MESSAGE value="Store HW fixes" />
     <MESSAGE value="hw_2 sql fixes" />
     <MESSAGE value="Store count pages optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Store count pages optimization" />
+    <MESSAGE value="Object fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1160,8 +1160,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/october/Obj/obj.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-652">
-          <caret line="326" column="31" lean-forward="true" selection-start-line="326" selection-start-column="31" selection-end-line="326" selection-end-column="31" />
+        <state relative-caret-position="213">
+          <caret line="347" column="30" lean-forward="true" selection-start-line="347" selection-start-column="30" selection-end-line="347" selection-end-column="30" />
           <folding />
         </state>
       </provider>
