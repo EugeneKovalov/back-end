@@ -46,7 +46,7 @@ $categoryResult = categoryList(0, $from, COUNT);
     <?php if (isset($id)) {
         $title = '';
         if ($id > 0) {
-            $category = mysqli_fetch_assoc(categoryList($id, $from));
+            $category = mysqli_fetch_assoc(categoryList($id));
             $title = $category['title'];
         }
 
@@ -60,10 +60,6 @@ $categoryResult = categoryList(0, $from, COUNT);
     <? } ?>
     <ul>
         <?php
-        $category_count = "SELECT * FROM category";
-        $find_count = mysqli_query($connection, $category_count);
-        $count = mysqli_num_rows($find_count);
-
         while ($category = mysqli_fetch_assoc($categoryResult)) {
             ?>
             <li>
