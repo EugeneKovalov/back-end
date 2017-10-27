@@ -338,12 +338,12 @@ class Form
 
     function submit($attributes)
     {
-        echo $this->pushElement($attributes, "<input>").PHP_EOL;
+        echo $this->pushElement($attributes, "<input type='submit'>").PHP_EOL;
     }
 
     function password($attributes)
     {
-        echo $this->pushElement($attributes, "<input>").PHP_EOL;
+        echo $this->pushElement($attributes, "<input type='password'>").PHP_EOL;
     }
 
     function textArea($attributes)
@@ -365,8 +365,8 @@ class Form
 $form = new Form();
 $form->open(["action" => "index.php", "method" => "POST"]);
 $form->input(["type" => "text", "value" => "!!!"]);
-$form->password(["type" => "password", "value" => "!!!"]);
-$form->submit(["type" => "submit", "value" => "go"]);
+$form->password(["value" => "!!!"]);
+$form->submit(["value" => "go"]);
 $form->textArea(["placeholder" => "123", "content" => "!!!"]);
 $form->close();
 
