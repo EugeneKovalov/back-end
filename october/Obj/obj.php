@@ -318,36 +318,42 @@ class Form
 {
     private function pushElement($attributes, $element)
     {
-        foreach ($attributes as $key => $value) {
-            $element = preg_replace("{attrType}", $key, $element, 1);
-            $element = preg_replace("{attrValue}", $value, $element, 1);
+        $element = substr($element, 0, strlen($element) - 1);
+        foreach ($attributes as $key => $value)
+        {
+            if($key != "content")
+            $element .= " " . $key . "=" . "\"" . $value . "\"";
         }
-        var_dump($element);
-        return $element;
+
+        if (in_array("content", array_keys($attributes))) {
+            return $element . ">" . $attributes["content"];
+        }
+        return $element . ">";
     }
+
     function input($attributes)
     {
-        echo $this->pushElement($attributes, "<input type='attrType'" . "value='attrValue'>".PHP_EOL);
+        echo $this->pushElement($attributes, "<input>").PHP_EOL;
     }
 
     function submit($attributes)
     {
-        echo $this->pushElement($attributes, "<input type='attrType'" . "value='attrValue'>".PHP_EOL);
+        echo $this->pushElement($attributes, "<input>").PHP_EOL;
     }
 
     function password($attributes)
     {
-        echo $this->pushElement($attributes, "<input type='attrType'" . "value='attrValue'>".PHP_EOL);
+        echo $this->pushElement($attributes, "<input>").PHP_EOL;
     }
 
     function textArea($attributes)
     {
-        echo $this->pushElement($attributes, "<textarea placeholder='attrValue'>attrValue</textarea>".PHP_EOL);
+        echo $this->pushElement($attributes, "<textarea>")."</textarea>".PHP_EOL;
     }
 
     function open($attributes)
     {
-        echo $this->pushElement($attributes, "<form action='attrValue'" . "method='attrValue'>".PHP_EOL);
+        echo $this->pushElement($attributes, "<form>").PHP_EOL;
     }
 
     function close()
@@ -358,10 +364,10 @@ class Form
 
 $form = new Form();
 $form->open(["action" => "index.php", "method" => "POST"]);
-$form->input(["text" => "!!!"]);
-$form->password(["password" => "!!!"]);
-$form->submit(["submit" => "go"]);
-$form->textArea(["placeholder" => "123", "value" => "!!!"]);
+$form->input(["type" => "text", "value" => "!!!"]);
+$form->password(["type" => "password", "value" => "!!!"]);
+$form->submit(["type" => "submit", "value" => "go"]);
+$form->textArea(["placeholder" => "123", "content" => "!!!"]);
 $form->close();
 
 // 8
@@ -377,7 +383,7 @@ class Cookie
         if(isset($_COOKIE[$name])) {
             return $_COOKIE[$name];
         }
-        echo "No cookie with " . $name . " has been found".PHP_EOL;
+        echo "No cookie with " . $name . " name has been found".PHP_EOL;
     }
 
     function delete($name)
