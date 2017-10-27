@@ -42,8 +42,8 @@
       <file leaf-file-name="obj.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/october/Obj/obj.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="338" column="32" lean-forward="true" selection-start-line="338" selection-start-column="32" selection-end-line="338" selection-end-column="32" />
+            <state relative-caret-position="150">
+              <caret line="327" column="57" lean-forward="true" selection-start-line="327" selection-start-column="57" selection-end-line="327" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -422,14 +422,7 @@
       <workItem from="1508705504730" duration="1613000" />
       <workItem from="1508836065808" duration="1245000" />
       <workItem from="1508864838069" duration="10000" />
-      <workItem from="1508933727395" duration="25746000" />
-    </task>
-    <task id="LOCAL-00006" summary="HW-2 basic-tasks - edited">
-      <created>1504021456009</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1504021456009</updated>
+      <workItem from="1508933727395" duration="25814000" />
     </task>
     <task id="LOCAL-00007" summary="HW-2 basic-tasks - edited">
       <created>1504505657390</created>
@@ -767,11 +760,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509105670424</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Object 7 fixes">
+      <created>1509109171146</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1509109171146</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360784000" />
+    <option name="totallyTimeSpent" value="360852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1160,8 +1160,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/october/Obj/obj.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="338" column="32" lean-forward="true" selection-start-line="338" selection-start-column="32" selection-end-line="338" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="327" column="57" lean-forward="true" selection-start-line="327" selection-start-column="57" selection-end-line="327" selection-end-column="57" />
           <folding />
         </state>
       </provider>

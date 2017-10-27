@@ -325,7 +325,8 @@ class Form
             $element .= " " . $key . "=" . "\"" . $value . "\"";
         }
 
-        if (in_array("content", array_keys($attributes))) {
+        if (in_array("content", array_keys($attributes)))
+        {
             return $element . ">" . $attributes["content"];
         }
         return $element . ">";
