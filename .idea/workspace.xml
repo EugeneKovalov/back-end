@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="Object 7 fixes">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/App/Entity/Base.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/App/Entity/CategoryEntity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/App/Entity/ProductEntity.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/App/lib/controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/store/App/lib/db.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/store/lib/db.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/store/lib/core.php" afterPath="$PROJECT_DIR$/store/App/lib/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PHP-Academy.iml" afterPath="$PROJECT_DIR$/.idea/PHP-Academy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="043178b8-4dc1-4a36-bc81-358cb04ffc35" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dumper.php" afterPath="$PROJECT_DIR$/dumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/inc/admin/category.php" afterPath="$PROJECT_DIR$/store/inc/admin/category.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/inc/admin/product.php" afterPath="$PROJECT_DIR$/store/inc/admin/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/inc/public/main.php" afterPath="$PROJECT_DIR$/store/inc/public/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/store/index.php" afterPath="$PROJECT_DIR$/store/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -496,14 +481,7 @@
       <workItem from="1511357875417" duration="14077000" />
       <workItem from="1511804945168" duration="1474000" />
       <workItem from="1511806621370" duration="3023000" />
-      <workItem from="1511864307592" duration="8048000" />
-    </task>
-    <task id="LOCAL-00008" summary="HW - 3 Arrays">
-      <created>1504641924627</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1504641924628</updated>
+      <workItem from="1511864307592" duration="8086000" />
     </task>
     <task id="LOCAL-00009" summary="HW - 3 Arrays">
       <created>1504642062150</created>
@@ -841,11 +819,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509109304481</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="06_objects/homework2">
+      <created>1511873471647</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1511873471649</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392675000" />
+    <option name="totallyTimeSpent" value="392713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -918,7 +903,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="HW-2 basic-tasks - edited" />
     <MESSAGE value="HW - 3 Arrays" />
     <MESSAGE value="HW - arrays" />
     <MESSAGE value="HW - string tasks" />
@@ -943,7 +927,8 @@
     <MESSAGE value="Store count pages optimization" />
     <MESSAGE value="Object fixes" />
     <MESSAGE value="Object 7 fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object 7 fixes" />
+    <MESSAGE value="06_objects/homework2" />
+    <option name="LAST_COMMIT_MESSAGE" value="06_objects/homework2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
