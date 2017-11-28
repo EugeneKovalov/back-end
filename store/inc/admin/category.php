@@ -1,4 +1,9 @@
 <?php
+
+use App\Entity\CategoryEntity;
+
+$categoryInstance = new CategoryEntity();
+
 define("COUNT", 5);
 
 if (isset($_POST['save'])) {
@@ -12,9 +17,9 @@ if (isset($_POST['save'])) {
 
     if (!empty($data)) {
         if ($id > 0) {
-            $result = updateCategory($id, $data);
+            $result = $categoryInstance->update($id, $data);
         } else {
-            $result = createCategory($data);
+            $result = $categoryInstance->create($data);
         }
     }
 }
@@ -22,7 +27,7 @@ if (isset($_POST['save'])) {
 if (isset($_POST['delete'])) {
     $id = $_POST['id'];
 
-    $result = deleteCategory($id);
+    $result = $categoryInstance->delete($id);
 }
 
 if(isset($_GET['p'])) {
@@ -38,7 +43,7 @@ if ($page < 2) {
 }
 
 $id = $_GET['id'];
-$categoryResult = categoryList(0, $from, COUNT);
+$categoryResult = $categoryInstance->get(0, $from, COUNT);
 
 ?>
 <div>
@@ -46,7 +51,7 @@ $categoryResult = categoryList(0, $from, COUNT);
     <?php if (isset($id)) {
         $title = '';
         if ($id > 0) {
-            $category = mysqli_fetch_assoc(categoryList($id));
+            $category = mysqli_fetch_assoc($categoryInstance->get($id));
             $title = $category['title'];
         }
 
@@ -78,7 +83,7 @@ $categoryResult = categoryList(0, $from, COUNT);
     </ul>
     <div class="pagination">
         <?php
-        $countLength = ceil(getCountItems('category') / COUNT);
+        $countLength = ceil($categoryInstance->getCountItems() / COUNT);
         for ($i = 1; $i <= $countLength; $i++) {
             ?>
             <a href="?page=category&p=<?=$i?>"><?=$i?></a>

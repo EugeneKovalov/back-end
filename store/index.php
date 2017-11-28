@@ -1,6 +1,11 @@
 <?php
 
-include_once('lib/core.php');
+spl_autoload_register(function ($name) {
+    $name = str_replace('\\', DIRECTORY_SEPARATOR, $name);
+    include_once $name.'.php';
+});
+
+include_once('App/lib/core.php');
 
 if ($destination) {
     $incPath = $_SERVER['DOCUMENT_ROOT'].'/PHP-Academy/store/inc/'.$destination;
@@ -14,9 +19,7 @@ if ($_GET['page']) {
     $page = str_replace('/', '', $_GET['page']);
 }
 
-
 ob_start();
-
 
 include($incPath.'/header.php');
 

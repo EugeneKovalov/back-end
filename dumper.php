@@ -21,7 +21,7 @@ function dumperGet(&$obj, $leftSp = "") {
     $leftSp .= "   ";
     for(Reset($obj); list($k, $v) = each($obj); ) {
         if ($k === "GLOBALS") continue;
-        $buf .= "\n$leftSp$k => " . dumperGet($v, $leftSp);
+         $buf .= "\n$leftSp$k => " . dumperGet($v, $leftSp);
     }
 
     return $buf;

@@ -1,4 +1,10 @@
 <?php
+use App\Entity\ProductEntity;
+use App\Entity\CategoryEntity;
+
+$productInstance = new ProductEntity();
+$categoryInstance = new CategoryEntity();
+
 define("COUNT", 5);
 
 if (isset($_POST['save'])) {
@@ -17,9 +23,9 @@ if (isset($_POST['save'])) {
 
     if (!empty($data)) {
         if ($id > 0) {
-            $result = updateProduct($id, $data);
+            $result = $productInstance->update($id, $data);
         } else {
-            $result = createProduct($data);
+            $result = $productInstance->create($data);
         }
     }
 }
@@ -28,7 +34,7 @@ if (isset($_POST['delete'])) {
     $id = $_POST['id'];
 
     if ($id > 0) {
-        $result = deleteProduct($id);
+        $result = $productInstance->delete($id);
     }
 }
 
@@ -45,7 +51,7 @@ if ($page < 2) {
 }
 
 $id = $_GET['id'];
-$productResult = productList(null, $from, COUNT);
+$productResult = $productInstance->get(null, $from, COUNT);
 
 ?>
 <div>
@@ -56,7 +62,7 @@ $productResult = productList(null, $from, COUNT);
         $price = 1;
 
         if ($id > 0) {
-            $product = mysqli_fetch_assoc(productList($id));
+            $product = mysqli_fetch_assoc($productInstance->get($id));
             $title = $product['title'];
             $price = $product['price'];
             $currentSelect = $product['category_id'];
@@ -72,7 +78,7 @@ $productResult = productList(null, $from, COUNT);
             <label for="fk">
                 <select name="fk">
                     <?php
-                    $categoryList = categoryList();
+                    $categoryList = $categoryInstance->get();
                     while ($category = mysqli_fetch_assoc($categoryList)) {
                         ?>
                         <option value="<?=$category['id']?>"
@@ -111,7 +117,7 @@ $productResult = productList(null, $from, COUNT);
 
     <div class="pagination">
         <?php
-        $countLength = ceil(getCountItems('product') / COUNT);
+        $countLength = ceil($productInstance->getCountItems() / COUNT);
         for ($i = 1; $i <= $countLength; $i++) {
             ?>
             <a href="?page=product&p=<?=$i?>"><?=$i?></a>
