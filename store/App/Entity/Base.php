@@ -34,7 +34,19 @@ abstract class Base {
      * @return bool
      * @throws Exception
      */
-    abstract protected function checkFields(array $data): bool;
+    private function checkFields(array $data) {
+        $tableName = $this->getTableName();
+        $map = $this->getMap();
+
+        foreach ($data as $key => $val)
+        {
+            if ($map[$key] != gettype($val))
+            {
+                throw new Exception($key . ' type not identical to type in ' . $tableName);
+            }
+        }
+        return true;
+    }
 
     /**
      * В этом методе получаем список элементов таблицы
@@ -76,13 +88,12 @@ abstract class Base {
         global $connection;
         $tableName = $this->getTableName();
 
-        $product_count = "SELECT * FROM $tableName";
-        $find_count = mysqli_query($connection, $product_count);
-        $count = mysqli_num_rows($find_count);
+        $productCount = "SELECT COUNT(id) AS CNT FROM $tableName";
+        $find_count = mysqli_query($connection, $productCount);
+        $count = mysqli_fetch_assoc($find_count);
 
-        return $count;
+        return isset($count['CNT']) ? $count['CNT'] : 0;
     }
-
 
     /**
      * В этом методе создаем новую запись в таблице getTableName.
