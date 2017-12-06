@@ -1,8 +1,12 @@
 <?php
 
+use App\DB\Connection;
 use App\Entity\CategoryEntity;
+use App\Main\Config;
 
-$categoryInstance = new CategoryEntity();
+$connection = Connection::getInstance();
+$config = new Config();
+$categoryInstance = new CategoryEntity($connection, $config);
 
 define("COUNT", 5);
 

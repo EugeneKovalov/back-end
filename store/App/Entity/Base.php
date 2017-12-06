@@ -2,9 +2,17 @@
 
 namespace App\Entity;
 
+use App\DB\IConnection;
 use Exception;
 
-abstract class Base {
+abstract class Base
+{
+    protected $connection;
+
+    public function __construct(IConnection $connection)
+    {
+        $this->connection = $connection;
+    }
 
     /**
      * @return string
@@ -34,7 +42,8 @@ abstract class Base {
      * @return bool
      * @throws Exception
      */
-    private function checkFields(array $data) {
+    private function checkFields(array $data)
+    {
         $tableName = $this->getTableName();
         $map = $this->getMap();
 
@@ -59,7 +68,6 @@ abstract class Base {
      */
     public function get(int $id = null, string $from = null, $count = null)
     {
-        global $connection;
         $tableName = $this->getTableName();
         $where = '';
 
@@ -76,20 +84,17 @@ abstract class Base {
         } else {
             $query = "SELECT * FROM $tableName $where;";
         }
-        $result = mysqli_query(
-            $connection, $query
-        );
+        $result = $this->connection->query($query);
 
         return $result;
     }
 
     public function getCountItems()
     {
-        global $connection;
         $tableName = $this->getTableName();
 
         $productCount = "SELECT COUNT(id) AS CNT FROM $tableName";
-        $find_count = mysqli_query($connection, $productCount);
+        $find_count = $this->connection->query($productCount);
         $count = mysqli_fetch_assoc($find_count);
 
         return isset($count['CNT']) ? $count['CNT'] : 0;
@@ -104,21 +109,17 @@ abstract class Base {
      */
     public function create(array $data)
     {
-        global $connection;
         $tableName = $this->getTableName();
 
         if ($this->checkFields($data)) {
             foreach ($data as &$val) {
-                $val = mysqli_escape_string($connection, $val);
+                $val = mysqli_escape_string($this->connection->get(), $val);
             }
 
             $cols = implode(',', array_keys($data));
             $values = "'" . implode("','", $data) . "'";
 
-            return mysqli_query(
-                $connection,
-                "INSERT INTO $tableName ($cols) VALUES ($values);"
-            );
+            return $this->connection->query("INSERT INTO $tableName ($cols) VALUES ($values);");
         }
 
         return false;
@@ -134,23 +135,20 @@ abstract class Base {
      */
     public function update(int $id, array $data)
     {
-        global $connection;
         $tableName = $this->getTableName();
         $values = [];
 
-        if ($this->checkFields($data)) {
-
-            foreach ($data as $key => $val) {
-                $val = mysqli_escape_string($connection, $val);
+        if ($this->checkFields($data))
+        {
+            foreach ($data as $key => $val)
+            {
+                $val = mysqli_escape_string($this->connection->get(), $val);
                 $values[] = "$key = '$val'";
             }
 
             $values = implode(',', $values);
 
-            return mysqli_query(
-                $connection,
-                "UPDATE $tableName SET $values WHERE id = $id;"
-            );
+            return $this->connection->query("UPDATE $tableName SET $values WHERE id = $id;");
         }
 
         return false;
@@ -164,13 +162,8 @@ abstract class Base {
      */
     public function delete(int $id)
     {
-        global $connection;
-
         $tableName = $this->getTableName();
 
-        return mysqli_query(
-            $connection,
-            "DELETE FROM $tableName WHERE id = $id;"
-        );
+        return $this->connection->query("DELETE FROM $tableName WHERE id = $id;");
     }
 }

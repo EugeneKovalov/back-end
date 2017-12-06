@@ -1,9 +1,14 @@
 <?php
+
+use App\DB\Connection;
 use App\Entity\ProductEntity;
 use App\Entity\CategoryEntity;
+use App\Main\Config;
 
-$productInstance = new ProductEntity();
-$categoryInstance = new CategoryEntity();
+$connection = Connection::getInstance();
+$config = new Config();
+$productInstance = new ProductEntity($connection, $config);
+$categoryInstance = new CategoryEntity($connection, $config);
 
 define("COUNT", 5);
 
