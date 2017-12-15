@@ -30,11 +30,6 @@
                 </div>
             </form>
         </div>
-        <?php $router = new \App\Core\Router('en/default/users');
-
-        var_dump($router->buildUri('register'));
-
-        ?>
     </div>
 </div>
 </div>
