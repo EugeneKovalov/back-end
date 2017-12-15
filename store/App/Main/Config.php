@@ -14,6 +14,8 @@ class Config implements IConfig
             'category' => 'category',
             'product' => 'product',
         ],
+
+        'count' => 5
     ];
 
     public static function get($paramName)

@@ -3,15 +3,18 @@
 namespace App\Entity;
 
 use App\DB\IConnection;
+use App\Main\IConfig;
 use Exception;
 
 abstract class Base
 {
     protected $connection;
+    protected $configuration;
 
-    public function __construct(IConnection $connection)
+    public function __construct(IConnection $connection, IConfig $configuration)
     {
         $this->connection = $connection;
+        $this->configuration = $configuration;
     }
 
     /**
@@ -113,7 +116,7 @@ abstract class Base
 
         if ($this->checkFields($data)) {
             foreach ($data as &$val) {
-                $val = mysqli_escape_string($this->connection->get(), $val);
+                $val = $this->connection->escape($val);
             }
 
             $cols = implode(',', array_keys($data));
@@ -142,7 +145,7 @@ abstract class Base
         {
             foreach ($data as $key => $val)
             {
-                $val = mysqli_escape_string($this->connection->get(), $val);
+                $val = $this->connection->escape($val);
                 $values[] = "$key = '$val'";
             }
 

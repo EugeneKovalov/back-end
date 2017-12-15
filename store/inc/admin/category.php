@@ -8,8 +8,6 @@ $connection = Connection::getInstance();
 $config = new Config();
 $categoryInstance = new CategoryEntity($connection, $config);
 
-define("COUNT", 5);
-
 if (isset($_POST['save'])) {
     $id = $_POST['id'];
     $title = $_POST['title'];
@@ -43,11 +41,11 @@ if(isset($_GET['p'])) {
 if ($page < 2) {
     $from = 0;
 } else {
-    $from = ($page * COUNT) - COUNT;
+    $from = ($page * Config::get('count')) - Config::get('count');
 }
 
 $id = $_GET['id'];
-$categoryResult = $categoryInstance->get(0, $from, COUNT);
+$categoryResult = $categoryInstance->get(0, $from, Config::get('count'));
 
 ?>
 <div>
@@ -87,7 +85,7 @@ $categoryResult = $categoryInstance->get(0, $from, COUNT);
     </ul>
     <div class="pagination">
         <?php
-        $countLength = ceil($categoryInstance->getCountItems() / COUNT);
+        $countLength = ceil($categoryInstance->getCountItems() / Config::get('count'));
         for ($i = 1; $i <= $countLength; $i++) {
             ?>
             <a href="?page=category&p=<?=$i?>"><?=$i?></a>

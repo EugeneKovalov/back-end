@@ -23,9 +23,11 @@ class Connection extends Singleton implements IConnection
         return mysqli_query(static::$connection, $query);
     }
 
-    public function get()
+    public function escape($val)
     {
-        return static::$connection;
+        return mysqli_escape_string(static::$connection, $val);
     }
+
+
 }
 

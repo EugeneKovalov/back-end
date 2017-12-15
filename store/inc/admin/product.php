@@ -10,7 +10,6 @@ $config = new Config();
 $productInstance = new ProductEntity($connection, $config);
 $categoryInstance = new CategoryEntity($connection, $config);
 
-define("COUNT", 5);
 
 if (isset($_POST['save'])) {
     $id = $_POST['id'];
@@ -52,11 +51,11 @@ if(isset($_GET['p'])) {
 if ($page < 2) {
     $from = 0;
 } else {
-    $from = ($page * COUNT) - COUNT;
+    $from = ($page * Config::get('count')) - Config::get('count');
 }
 
 $id = $_GET['id'];
-$productResult = $productInstance->get(null, $from, COUNT);
+$productResult = $productInstance->get(null, $from, Config::get('count'));
 
 ?>
 <div>
@@ -122,7 +121,7 @@ $productResult = $productInstance->get(null, $from, COUNT);
 
     <div class="pagination">
         <?php
-        $countLength = ceil($productInstance->getCountItems() / COUNT);
+        $countLength = ceil($productInstance->getCountItems() / Config::get('count'));
         for ($i = 1; $i <= $countLength; $i++) {
             ?>
             <a href="?page=product&p=<?=$i?>"><?=$i?></a>
