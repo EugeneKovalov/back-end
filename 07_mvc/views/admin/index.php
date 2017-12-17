@@ -10,7 +10,6 @@ $router = \App\Core\App::getRouter();
 <div class="col-lg-12">
     <h1>Pages management</h1>
 </div>
-
 <div class="col-lg-12">
     <div class="row">
         <div class="col-lg-12 mb-15">

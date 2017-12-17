@@ -10,14 +10,17 @@
                     <label for="login">Login: <sup>*</sup></label>
                     <input type="text" name="login" class="form-control form-control-lg">
                 </div>
+
                 <div class="form-group">
                     <label for="email">Email: <sup>*</sup></label>
                     <input type="email" name="email" class="form-control form-control-lg">
                 </div>
+
                 <div class="form-group">
                     <label for="password">Password: <sup>*</sup></label>
                     <input type="password" name="password" class="form-control form-control-lg">
                 </div>
+
                 <div class="form-group">
                     <label for="password_confirm">Confirm Password: <sup>*</sup></label>
                     <input type="password" name="password_confirm" class="form-control form-control-lg">
