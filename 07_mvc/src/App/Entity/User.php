@@ -46,7 +46,6 @@ class User extends Base
     {
         $exists = $this->conn->query(
             'SELECT * FROM '. $this->getTableName(). ' WHERE email = ' . $this->conn->escape($email) . ' LIMIT 1');
-//        print_r($exists);
 
         if (empty($exists))
         {

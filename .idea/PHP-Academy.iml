@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/phpunit/phpunit-mock-objects" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/07_mvc/vendor/webmozart/assert" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Bootstrap-Study" />
-    <orderEntry type="module" module-name="MVC" />
-    <orderEntry type="module-library">
-      <library name="PHARS">
-        <CLASSES>
-          <root url="phar://$MODULE_DIR$/07_composer_project/vendor/twig/twig/test/Twig/Tests/Loader/Fixtures/phar/phar-sample.phar/" />
-          <root url="phar://$MODULE_DIR$/07_composer_project/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
-          <root url="phar://$MODULE_DIR$/07_mvc/composer.phar/" />
-          <root url="phar://$MODULE_DIR$/07_mvc/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
-        </CLASSES>
-        <SOURCES>
-          <root url="phar://$MODULE_DIR$/07_composer_project/vendor/twig/twig/test/Twig/Tests/Loader/Fixtures/phar/phar-sample.phar/" />
-          <root url="phar://$MODULE_DIR$/07_composer_project/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
-          <root url="phar://$MODULE_DIR$/07_mvc/composer.phar/" />
-          <root url="phar://$MODULE_DIR$/07_mvc/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
-        </SOURCES>
-      </library>
-    </orderEntry>
   </component>
 </module>

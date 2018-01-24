@@ -67,4 +67,47 @@ class UsersController extends Base
             }
         }
     }
+
+    public function loginAction()
+    {
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+            $data = [
+                'email' => trim($_POST['email']),
+                'password' => trim($_POST['password']),
+            ];
+
+            $user = $this->usersModel->findUserByEmail($data['email']);
+            $hash = md5('d41d8cd98f00b204e9800998ecf8427e' . $data['password']);
+
+            if ($user && $user['active']) {
+                if ($user && $user['active'] && $hash == $user['password']) {
+                    App::getSession()->set('login', $user['login']);
+                    App::getSession()->set('role', $user['role']);
+                    App::getSession()->set('email', $user['email']);
+                    App::getSession()->setFlash('User \'' . $user['login'] . '\' Success.');
+
+                    if ($user['role'] === 'admin') {
+                        App::getRouter()->redirect('admin.pages.index');
+                    } else {
+                        App::getRouter()->redirect('pages.index');
+                    }
+                } else {
+                    App::getSession()->setFlash('data not match');
+                }
+            } else {
+                App::getSession()->setFlash($user['login'] . '\' not found');
+            }
+        }
+    }
+
+    public function logoutAction()
+    {
+        $user = App::getSession()->get('login');
+
+        App::getSession()->destroy();
+
+        App::getSession()->setFlash('User \'' . $user . '\' logout.');
+        App::getRouter()->redirect('users.login');
+    }
 }

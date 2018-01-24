@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: gendos
- * Date: 11/6/17
- * Time: 20:25
- */
 
 /** @var array $data */
 
@@ -16,8 +10,7 @@ $session = \App\Core\App::getSession();
 <head>
     <meta charset="utf-8">
     <title><?= \App\Core\Config::get('siteName') ?></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-          integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/default.css">
 </head>
 <body>
@@ -30,11 +23,16 @@ $session = \App\Core\App::getSession();
                 <a class="nav-link" href="<?= $router->buildUri('pages.index') ?>"><?= __('header.pages') ?></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="<?= $router->buildUri('contacts.index') ?>"><?= __('header.contact_us') ?></a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="<?= $router->buildUri('users/register.index') ?>"><?= __('header.register') ?></a>
             </li>
+            <?php if ($session->get('login')) { ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="<?= $router->buildUri('users.logout') ?>"><?= __('header.logout') ?></a>
+                </li>
+            <?php } else { ?>
+            <li class="nav-item">
+                <a class="nav-link" href="<?= $router->buildUri('users.login') ?>"><?= __('header.login') ?></a>
+                <? } ?>
         </ul>
     </div>
 </nav>

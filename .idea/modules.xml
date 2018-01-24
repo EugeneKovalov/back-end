@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../CSS_CASTS/.idea/Bootstrap-Study.iml" filepath="$PROJECT_DIR$/../CSS_CASTS/.idea/Bootstrap-Study.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../MVC/.idea/MVC.iml" filepath="$PROJECT_DIR$/../MVC/.idea/MVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PHP-Academy.iml" filepath="$PROJECT_DIR$/.idea/PHP-Academy.iml" />
     </modules>
   </component>

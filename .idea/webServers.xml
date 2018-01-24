@@ -5,6 +5,9 @@
       <webServer id="04297318-455d-4bd8-93f3-d37a06d7c54f" name="MAMP" url="http://localhost:8888">
         <fileTransfer port="0" mountedRoot="$PROJECT_DIR$/.." accessType="MOUNT" />
       </webServer>
+      <webServer id="c43e00c5-d304-4ff5-a85b-7d5df9ed338c" name="In Place" url="http://mvc.com">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </project>
